@@ -2,6 +2,8 @@
 
 ![title](wlc-pythonizer-logo.png "Project logo")
 
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/consulttelecom/cisco-wlc-pythonizer)
+
 Python script to convert Cisco WLC config file into simple and intuitive Python data object.
 
 This conversion will allow you to solve many day-to-day problems and analyse many aspects of your Cisco wireless network by:
