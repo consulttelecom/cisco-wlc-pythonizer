@@ -1,0 +1,3163 @@
+
+System Inventory
+NAME: "Chassis"    , DESCR: "Cisco 2500 Series Wireless LAN Controller"
+PID: AIR-CT2504-K9,  VID: V05,  SN: PSZ19241MUZ
+
+Burned-in MAC Address............................ F0:B2:E5:AA:B0:0A
+Maximum number of APs supported.................. 75
+
+ 
+
+System Information
+Manufacturer's Name.............................. Cisco Systems Inc.
+Product Name..................................... Cisco Controller
+Product Version.................................. 8.0.120.0
+Bootloader Version............................... 1.0.20
+Field Recovery Image Version..................... 7.6.101.1
+Firmware Version................................. PIC 20.0
+
+
+Build Type....................................... DATA + WPS
+
+System Name...................................... WLC2504
+System Location.................................. 
+System Contact................................... 
+System ObjectID.................................. 1.3.6.1.4.1.9.1.1279
+IP Address....................................... 10.0.0.10
+IPv6 Address..................................... ::
+Last Reset....................................... Power on reset
+System Up Time................................... 0 days 0 hrs 6 mins 29 secs
+System Timezone Location......................... (GMT -5:00) Eastern Time (US a
+nd Canada)
+System Stats Realtime Interval................... 5
+System Stats Normal Interval..................... 180
+
+Configured Country............................... US  - United States
+Operating Environment............................ Commercial (0 to 40 C)
+Internal Temp Alarm Limits....................... 0 to 65 C
+Internal Temperature............................. +32 C
+External Temperature............................. +35 C
+Fan Status....................................... 3500 rpm
+
+State of 802.11b Network......................... Enabled
+State of 802.11a Network......................... Enabled
+Number of WLANs.................................. 2
+Number of Active Clients......................... 0
+
+Burned-in MAC Address............................ F0:B2:E5:AA:0B:A0
+Maximum number of APs supported.................. 75
+System Nas-Id.................................... WLC2504
+WLC MIC Certificate Types........................ SHA1/SHA2
+
+ 
+
+Redundancy Information
+Redundancy Mode ................................. SSO DISABLED 
+Local State...................................... ACTIVE
+Peer State....................................... N/A 
+Unit............................................. Primary
+Unit ID.......................................... F0:B2:E5:AA:0B:A0
+Redunadancy State................................ N/A 
+Mobility MAC..................................... F0:B2:E5:AA:0B:A0
+Redundancy Management IP Address................. 0.0.0.0
+Peer Redundancy Management IP Address............ 0.0.0.0
+Redundancy Port IP Address....................... 0.0.0.0
+Peer Redundancy Port IP Address.................. 169.254.0.0
+
+ 
+
+AP Bundle Information
+
+Primary AP Image	Size
+----------------	----
+ap1g1			12480
+ap1g2			11656
+ap1g3			13460
+ap3g1			9616
+ap3g2			13240
+ap3g3			0
+ap801			7952
+ap802			9408
+c1130			5092
+c1140			8556
+c1250			6072
+c1520			7264
+c1550			9576
+c1570			11516
+c602i			3856
+version.info			4
+
+Secondary AP Image	Size
+------------------	----
+ap1g2			9576
+ap3g1			11296
+ap3g2			11208
+ap801			7164
+ap802			8576
+c1130			5072
+c1140			9428
+c1250			6964
+c1520			8064
+c602i			3736
+
+ 
+
+Switch Configuration
+802.3x Flow Control Mode......................... Disable 
+FIPS prerequisite features....................... Disabled
+WLANCC prerequisite features..................... Disabled
+UCAPL prerequisite features...................... Disabled
+DTLS WLC MIC .................................... SHA2
+secret obfuscation............................... Enabled
+Strong Password Check Features
+   case-check.................................... Enabled
+   consecutive-check............................. Enabled
+   default-check................................. Enabled
+   username-check................................ Enabled
+   position-check................................ Disabled
+   case-digit-check.............................. Disabled
+   Min. Password length.......................... 3
+   Min. Upper case chars......................... 0
+   Min. Lower case chars......................... 0
+   Min. Digits chars............................. 0
+   Min. Special chars............................ 0
+Mgmt User 
+   Password Lifetime [days]...................... 0
+   Password Lockout.............................. Disabled
+   Lockout Attempts.............................. 3
+   Lockout Timeout [mins]........................ 5
+SNMPv3 User 
+   Password Lifetime [days]...................... 0
+   Password Lockout.............................. Disabled
+   Lockout Attempts.............................. 3
+   Lockout Timeout [mins]........................ 5
+
+ 
+
+Network Information
+RF-Network Name............................. WLC2504
+Web Mode.................................... Disable
+Secure Web Mode............................. Enable
+Secure Web Mode Cipher-Option High.......... Disable
+Secure Web Mode Cipher-Option SSLv2......... Disable
+Secure Web Mode RC4 Cipher Preference....... Disable
+Secure Web Mode SSL Protocol................ Disable
+OCSP........................................ Disabled
+OCSP responder URL.......................... 
+Secure Shell (ssh).......................... Enable
+Telnet...................................... Disable
+Ethernet Multicast Forwarding............... Disable
+Ethernet Broadcast Forwarding............... Disable
+IPv4 AP Multicast/Broadcast Mode............ Multicast   Address : 239.254.254.1
+0
+IPv6 AP Multicast/Broadcast Mode............ Multicast   Address : ::
+IGMP snooping............................... Disabled
+IGMP timeout................................ 60 seconds
+IGMP Query Interval......................... 20 seconds
+MLD snooping................................ Disabled
+MLD timeout................................. 60 seconds
+MLD query interval.......................... 20 seconds
+User Idle Timeout........................... 60 seconds
+ARP Idle Timeout............................ 300 seconds
+Cisco AP Default Master..................... Disable
+AP Join Priority............................ Disable
+Mgmt Via Wireless Interface................. Enable
+Mgmt Via Dynamic Interface.................. Disable
+Bridge MAC filter Config.................... Enable
+Bridge Security Mode........................ EAP
+Mesh Full Sector DFS........................ Enable
+AP Fallback ................................ Enable
+Web Auth CMCC Support ...................... Disabled
+Web Auth Redirect Ports .................... 80
+Web Auth Proxy Redirect  ................... Disable
+Web Auth Captive-Bypass   .................. Disable
+Web Auth Secure Web  ....................... Enable
+Web Auth Secure Redirection  ............... Disable
+Fast SSID Change ........................... Disabled
+AP Discovery - NAT IP Only ................. Enabled
+IP/MAC Addr Binding Check .................. Enabled
+Link Local Bridging Status ................. Disabled
+CCX-lite status ............................ Disable
+oeap-600 dual-rlan-ports ................... Disable
+oeap-600 local-network ..................... Enable
+oeap-600 Split Tunneling (Printers)......... Disable
+WebPortal Online Client .................... 0
+WebPortal NTF_LOGOUT Client ................ 0
+mDNS snooping............................... Disabled
+mDNS Query Interval......................... 15 minutes
+Web Color Theme............................. Default
+Capwap Prefer Mode.......................... IPv4
+Client ip conflict detection (DHCP) ........ Disabled
+
+ 
+
+Port Summary
+           STP   Admin   Physical   Physical   Link   Link
+Pr  Type   Stat   Mode     Mode      Status   Status  Trap     POE  
+-- ------- ---- ------- ---------- ---------- ------ ------- -------
+1  Normal  Forw Enable  Auto       1000 Full  Up     Enable  N/A     
+2  Normal  Disa Enable  Auto       Auto       Down   Enable  N/A     
+3  Normal  Disa Enable  Auto       Auto       Down   Enable  Enable  (Power Off)
+ 
+4  Normal  Disa Enable  Auto       Auto       Down   Enable  Enable  (Power Off)
+ 
+
+ 
+
+AP Summary
+Number of APs.................................... 2
+
+Global AP User Name.............................. Not Configured
+Global AP Dot1x User Name........................ Not Configured
+
+AP Name             Slots  AP Model              Ethernet MAC       Location    
+      Country  IP Address       Clients
+------------------  -----  --------------------  -----------------  ------------
+----  -------  ---------------  -------
+YELLOW               2     AIR-CAP2702I-A-K9     d4:6d:50:a7:87:80              
+Home  US       10.0.0.13        0   
+BLUE                 2     AIR-CAP3702I-A-K9     58:97:bd:26:e5:00              
+Home  US       10.0.0.12        0   
+
+AP Tcp-Mss-Adjust Info
+AP Name              TCP State  MSS Size
+------------------   --------   ------- 
+YELLOW               disabled   -
+BLUE                 disabled   -
+
+ 
+
+AP Location
+Total Number of AP Groups........................ 0    
+
+
+Site Name........................................ default-group
+Site Description................................. <none>
+NAS-identifier................................... WLC2504
+Client Traffic QinQ Enable....................... FALSE
+DHCPv4 QinQ Enable............................... FALSE
+AP Operating Class............................... Not-configured
+Capwap Prefer Mode............................... Not-configured
+
+RF Profile
+----------
+2.4 GHz band..................................... <none>
+5 GHz band....................................... <none>
+
+WLAN ID          Interface          Network Admission Control          Radio Pol
+icy
+-------          -----------        --------------------------         ---------
+---
+ 1               management           Disabled                          None
+ 2               vlan2                Disabled                          None
+
+*AP3600 with 802.11ac Module will only advertise first 8 WLANs on 5GHz radios.
+
+
+AP Name             Slots  AP Model             Ethernet MAC       Location     
+     Port  Country  Priority
+------------------  -----  -------------------  -----------------  -------------
+---  ----  -------  --------
+YELLOW               2     AIR-CAP2702I-A-K9    d4:6d:50:a7:87:80              H
+ome  1     US       1
+BLUE                 2     AIR-CAP3702I-A-K9    58:97:bd:26:e5:00              H
+ome  1     US       1
+
+
+
+ 
+
+RF Profile
+
+Number of RF Profiles............................ 0
+
+Out Of Box State................................. Disabled
+
+Out Of Box Persistence........................... Disabled
+
+RF Profile Name                    Band     Description                         
+ 11n-client-only     Applied  
+---------------------------------  -------  ----------------------------------- 
+ ------------------  ----------
+
+
+ 
+
+AP Config
+Cisco AP Identifier.............................. 1
+Cisco AP Name.................................... YELLOW
+Country code..................................... US  - United States
+Regulatory Domain allowed by Country............. 802.11bg:-A     802.11a:-A
+AP Country code.................................. US  - United States
+AP Regulatory Domain............................. -A
+Switch Port Number .............................. 1
+MAC Address...................................... d4:6d:50:a7:87:80
+IP Address Configuration......................... DHCP
+IP Address....................................... 10.0.0.13
+IP NetMask....................................... 255.255.255.0
+Gateway IP Addr.................................. 10.0.0.1
+NAT External IP Address.......................... None
+CAPWAP Path MTU.................................. 1485
+Telnet State..................................... Globally Disabled
+Ssh State........................................ Globally Disabled
+Cisco AP Location................................ Home
+Cisco AP Floor Label............................. 0
+Cisco AP Group Name.............................. default-group
+Primary Cisco Switch Name........................ WLC2504
+Primary Cisco Switch IP Address.................. 10.0.0.10
+Secondary Cisco Switch Name...................... 
+Secondary Cisco Switch IP Address................ Not Configured
+Tertiary Cisco Switch Name....................... 
+Tertiary Cisco Switch IP Address................. Not Configured
+Administrative State ............................ ADMIN_ENABLED
+Operation State ................................. REGISTERED
+Mirroring Mode .................................. Disabled
+AP Mode ......................................... FlexConnect
+Public Safety ................................... Disabled 
+AP SubMode ...................................... Not Configured
+AP Vlan Trunking ................................ Disabled 
+Remote AP Debug ................................. Disabled
+Logging trap severity level ..................... informational
+Logging syslog facility ......................... kern
+S/W  Version .................................... 8.0.120.0
+Boot  Version ................................... 15.2.4.5
+Mini IOS Version ................................ 8.0.72.236
+Stats Reporting Period .......................... 180
+Stats Collection Mode ........................... normal
+LED State........................................ Enabled
+PoE Pre-Standard Switch.......................... Disabled
+PoE Power Injector MAC Addr...................... Disabled
+Power Type/Mode.................................. PoE/Full Power
+Number Of Slots.................................. 2 
+AP Model......................................... AIR-CAP2702I-A-K9
+AP Image......................................... C2700-K9W8-M
+IOS Version...................................... 15.3(3)JA4$
+Reset Button..................................... Enabled
+AP Serial Number................................. FCW1846NJHP
+AP Certificate Type.............................. Manufacture Installed
+FlexConnect Vlan mode :.......................... Disabled
+FlexConnect Group................................ Not a member of any group
+Group VLAN ACL Mappings
+
+AP-Specific FlexConnect Policy ACLs :
+L2Acl Configuration ............................. Not Available
+FlexConnect Local-Split ACLs :
+
+WLAN ID   PROFILE NAME                       ACL                                
+ TYPE
+-------  --------------------------------   ---------------------------------   
+-------
+
+ Flexconnect Central-Dhcp Values :
+
+WLAN ID   PROFILE NAME                         Central-Dhcp      DNS Override   
+   Nat-Pat     Type
+-------  ---------------------------------    --------------    --------------  
+  ---------   ------ 
+FlexConnect Backup Auth Radius Servers :
+ Primary Radius Server........................... Disabled
+ Secondary Radius Server......................... Disabled
+AP User Mode..................................... AUTOMATIC
+AP User Name..................................... Cisco
+AP Dot1x User Mode............................... Not Configured
+AP Dot1x User Name............................... Not Configured
+Cisco AP system logging host..................... 255.255.255.255
+AP Up Time....................................... 0 days, 00 h 04 m 02 s
+AP LWAPP Up Time................................. 0 days, 00 h 02 m 06 s
+Join Date and Time............................... Mon Dec  7 11:07:21 2015
+Join Taken Time.................................. 0 days, 00 h 01 m 55 s
+
+Attributes for Slot  0
+    Radio Type................................... RADIO_TYPE_80211n-2.4
+    Administrative State ........................ ADMIN_ENABLED
+    Operation State ............................. UP
+    Radio Role .................................. ACCESS
+    Radio Mode .................................. Remote
+    CellId ...................................... 0
+
+    Station Configuration
+      Configuration ............................. AUTOMATIC
+      Number Of WLANs ........................... 1
+      Medium Occupancy Limit .................... 100
+      CFP Period ................................ 4
+      CFP MaxDuration ........................... 60
+      BSSID ..................................... 74:a0:2f:6b:81:40
+      Operation Rate Set 
+        11000 Kilo Bits.......................... MANDATORY
+        12000 Kilo Bits.......................... SUPPORTED
+        18000 Kilo Bits.......................... SUPPORTED
+        24000 Kilo Bits.......................... SUPPORTED
+        36000 Kilo Bits.......................... SUPPORTED
+        48000 Kilo Bits.......................... SUPPORTED
+        54000 Kilo Bits.......................... SUPPORTED
+      MCS Set 
+        MCS 0.................................... SUPPORTED
+        MCS 1.................................... SUPPORTED
+        MCS 2.................................... SUPPORTED
+        MCS 3.................................... SUPPORTED
+        MCS 4.................................... SUPPORTED
+        MCS 5.................................... SUPPORTED
+        MCS 6.................................... SUPPORTED
+        MCS 7.................................... SUPPORTED
+        MCS 8.................................... SUPPORTED
+        MCS 9.................................... SUPPORTED
+        MCS 10................................... SUPPORTED
+        MCS 11................................... SUPPORTED
+        MCS 12................................... SUPPORTED
+        MCS 13................................... SUPPORTED
+        MCS 14................................... SUPPORTED
+        MCS 15................................... SUPPORTED
+        MCS 16................................... SUPPORTED
+        MCS 17................................... SUPPORTED
+        MCS 18................................... SUPPORTED
+        MCS 19................................... SUPPORTED
+        MCS 20................................... SUPPORTED
+        MCS 21................................... SUPPORTED
+        MCS 22................................... SUPPORTED
+        MCS 23................................... SUPPORTED
+      Beacon Period ............................. 100
+      Fragmentation Threshold ................... 2346
+      Multi Domain Capability Implemented ....... TRUE
+      Multi Domain Capability Enabled ........... TRUE
+      Country String ............................ US 
+
+    Multi Domain Capability
+      Configuration ............................. AUTOMATIC
+      First Chan Num ............................ 1
+      Number Of Channels ........................ 11
+
+    MAC Operation Parameters 
+      Configuration ............................. AUTOMATIC
+      Fragmentation Threshold ................... 2346
+      Packet Retry Limit ........................ 64
+
+    Tx Power 
+      Num Of Supported Power Levels ............. 8
+      Tx Power Level 1 .......................... 22 dBm
+      Tx Power Level 2 .......................... 19 dBm
+      Tx Power Level 3 .......................... 16 dBm
+      Tx Power Level 4 .......................... 13 dBm
+      Tx Power Level 5 .......................... 10 dBm
+      Tx Power Level 6 .......................... 7 dBm
+      Tx Power Level 7 .......................... 4 dBm
+      Tx Power Level 8 .......................... 1 dBm
+      Tx Power Configuration .................... AUTOMATIC
+      Current Tx Power Level .................... 8
+      Tx Power Assigned By ...................... DTPC
+
+    Phy OFDM parameters
+      Configuration ............................. AUTOMATIC
+      Current Channel ........................... 11
+      Channel Assigned By ....................... DCA
+      Extension Channel ......................... NONE
+      Channel Width.............................. 20 Mhz
+      Allowed Channel List....................... 1,2,3,4,5,6,7,8,9,10,11
+      TI Threshold .............................. -50
+      DCA Channel List........................... Global
+      Legacy Tx Beamforming Configuration ....... CUSTOMIZED
+      Legacy Tx Beamforming ..................... ENABLED
+      Antenna Type............................... INTERNAL_ANTENNA
+      Internal Antenna Gain (in .5 dBi units).... 8
+      Diversity.................................. DIVERSITY_ENABLED
+      802.11n Antennas
+         A....................................... ENABLED
+         B....................................... ENABLED
+         C....................................... ENABLED
+         D....................................... ENABLED
+
+    Performance Profile Parameters
+      Configuration ............................. AUTOMATIC
+      Interference threshold..................... 10 %
+      Noise threshold............................  -70 dBm
+      RF utilization threshold................... 80 %
+      Data-rate threshold........................ 1000000 bps
+      Client threshold........................... 12 clients
+      Coverage SNR threshold..................... 12 dB
+      Coverage exception level................... 25 %
+      Client minimum exception level............. 3 clients
+    Rogue Containment Information
+    Containment Count............................ 0
+
+    CleanAir Management Information
+        CleanAir Capable......................... Yes
+        CleanAir Management Administration St.... Enabled
+        CleanAir Management Operation State...... Up
+        Rapid Update Mode........................ Off
+        Spectrum Expert connection............... Enabled
+          CleanAir NSI Key....................... 5F73075AE979EB7F1148971CFD0F92
+5D
+          Spectrum Expert Connections counter.... 0
+        CleanAir Sensor State.................... Configured
+
+Cisco AP Identifier.............................. 1
+Cisco AP Name.................................... YELLOW
+Country code..................................... US  - United States
+Regulatory Domain allowed by Country............. 802.11bg:-A     802.11a:-A
+AP Country code.................................. US  - United States
+AP Regulatory Domain............................. -A
+Switch Port Number .............................. 1
+MAC Address...................................... d4:6d:50:a7:87:80
+IP Address Configuration......................... DHCP
+IP Address....................................... 10.0.0.13
+IP NetMask....................................... 255.255.255.0
+Gateway IP Addr.................................. 10.0.0.1
+NAT External IP Address.......................... None
+CAPWAP Path MTU.................................. 1485
+Telnet State..................................... Globally Disabled
+Ssh State........................................ Globally Disabled
+Cisco AP Location................................ Home
+Cisco AP Floor Label............................. 0
+Cisco AP Group Name.............................. default-group
+Primary Cisco Switch Name........................ WLC2504
+Primary Cisco Switch IP Address.................. 10.0.0.10
+Secondary Cisco Switch Name...................... 
+Secondary Cisco Switch IP Address................ Not Configured
+Tertiary Cisco Switch Name....................... 
+Tertiary Cisco Switch IP Address................. Not Configured
+Administrative State ............................ ADMIN_ENABLED
+Operation State ................................. REGISTERED
+Mirroring Mode .................................. Disabled
+AP Mode ......................................... FlexConnect
+Public Safety ................................... Disabled 
+AP SubMode ...................................... Not Configured
+AP Vlan Trunking ................................ Disabled 
+Remote AP Debug ................................. Disabled
+Logging trap severity level ..................... informational
+Logging syslog facility ......................... kern
+S/W  Version .................................... 8.0.120.0
+Boot  Version ................................... 15.2.4.5
+Mini IOS Version ................................ 8.0.72.236
+Stats Reporting Period .......................... 180
+Stats Collection Mode ........................... normal
+LED State........................................ Enabled
+PoE Pre-Standard Switch.......................... Disabled
+PoE Power Injector MAC Addr...................... Disabled
+Power Type/Mode.................................. PoE/Full Power
+Number Of Slots.................................. 2 
+AP Model......................................... AIR-CAP2702I-A-K9
+AP Image......................................... C2700-K9W8-M
+IOS Version...................................... 15.3(3)JA4$
+Reset Button..................................... Enabled
+AP Serial Number................................. FCW1846NJHP
+AP Certificate Type.............................. Manufacture Installed
+FlexConnect Vlan mode :.......................... Disabled
+FlexConnect Group................................ Not a member of any group
+Group VLAN ACL Mappings
+
+AP-Specific FlexConnect Policy ACLs :
+L2Acl Configuration ............................. Not Available
+FlexConnect Local-Split ACLs :
+
+WLAN ID   PROFILE NAME                       ACL                                
+ TYPE
+-------  --------------------------------   ---------------------------------   
+-------
+
+ Flexconnect Central-Dhcp Values :
+
+WLAN ID   PROFILE NAME                         Central-Dhcp      DNS Override   
+   Nat-Pat     Type
+-------  ---------------------------------    --------------    --------------  
+  ---------   ------ 
+FlexConnect Backup Auth Radius Servers :
+ Primary Radius Server........................... Disabled
+ Secondary Radius Server......................... Disabled
+AP User Mode..................................... AUTOMATIC
+AP User Name..................................... Cisco
+AP Dot1x User Mode............................... Not Configured
+AP Dot1x User Name............................... Not Configured
+Cisco AP system logging host..................... 255.255.255.255
+AP Up Time....................................... 0 days, 00 h 04 m 02 s
+AP LWAPP Up Time................................. 0 days, 00 h 02 m 06 s
+Join Date and Time............................... Mon Dec  7 11:07:21 2015
+Join Taken Time.................................. 0 days, 00 h 01 m 55 s
+
+Attributes for Slot  1
+    Radio Type................................... RADIO_TYPE_80211ac-5
+    Radio Subband................................ RADIO_SUBBAND_ALL
+    Administrative State ........................ ADMIN_ENABLED
+    Operation State ............................. UP
+    Radio Role .................................. ACCESS
+    Radio Mode .................................. Remote
+    CellId ...................................... 0
+
+    Station Configuration
+      Configuration ............................. AUTOMATIC
+      Number Of WLANs ........................... 1
+      Medium Occupancy Limit .................... 100
+      CFP Period ................................ 4
+      CFP MaxDuration ........................... 60
+      BSSID ..................................... 74:a0:2f:6b:81:40
+      Operation Rate Set 
+        6000 Kilo Bits........................... MANDATORY
+        9000 Kilo Bits........................... SUPPORTED
+        12000 Kilo Bits.......................... MANDATORY
+        18000 Kilo Bits.......................... SUPPORTED
+        24000 Kilo Bits.......................... MANDATORY
+        36000 Kilo Bits.......................... SUPPORTED
+        48000 Kilo Bits.......................... SUPPORTED
+        54000 Kilo Bits.......................... SUPPORTED
+      MCS Set 
+        MCS 0.................................... SUPPORTED
+        MCS 1.................................... SUPPORTED
+        MCS 2.................................... SUPPORTED
+        MCS 3.................................... SUPPORTED
+        MCS 4.................................... SUPPORTED
+        MCS 5.................................... SUPPORTED
+        MCS 6.................................... SUPPORTED
+        MCS 7.................................... SUPPORTED
+        MCS 8.................................... SUPPORTED
+        MCS 9.................................... SUPPORTED
+        MCS 10................................... SUPPORTED
+        MCS 11................................... SUPPORTED
+        MCS 12................................... SUPPORTED
+        MCS 13................................... SUPPORTED
+        MCS 14................................... SUPPORTED
+        MCS 15................................... SUPPORTED
+        MCS 16................................... SUPPORTED
+        MCS 17................................... SUPPORTED
+        MCS 18................................... SUPPORTED
+        MCS 19................................... SUPPORTED
+        MCS 20................................... SUPPORTED
+        MCS 21................................... SUPPORTED
+        MCS 22................................... SUPPORTED
+        MCS 23................................... SUPPORTED
+      802.11ac MCS Set 
+        Nss=1: MCS 0-9 .......................... SUPPORTED
+        Nss=2: MCS 0-9 .......................... SUPPORTED
+        Nss=3: MCS 0-9 .......................... SUPPORTED
+      Beacon Period ............................. 100
+      Fragmentation Threshold ................... 2346
+      Multi Domain Capability Implemented ....... TRUE
+      Multi Domain Capability Enabled ........... TRUE
+      Country String ............................ US 
+
+    Multi Domain Capability
+      Configuration ............................. AUTOMATIC
+      First Chan Num ............................ 36
+      Number Of Channels ........................ 21
+
+    MAC Operation Parameters 
+      Configuration ............................. AUTOMATIC
+      Fragmentation Threshold ................... 2346
+      Packet Retry Limit ........................ 64
+
+    Tx Power 
+      Num Of Supported Power Levels ............. 5
+      Tx Power Level 1 .......................... 15 dBm
+      Tx Power Level 2 .......................... 12 dBm
+      Tx Power Level 3 .......................... 9 dBm
+      Tx Power Level 4 .......................... 6 dBm
+      Tx Power Level 5 .......................... 3 dBm
+      Tx Power Configuration .................... AUTOMATIC
+      Current Tx Power Level .................... 3
+      Tx Power Assigned By ...................... DTPC
+
+    Phy OFDM parameters
+      Configuration ............................. AUTOMATIC
+      Current Channel ........................... 36
+      Channel Assigned By ....................... DCA
+      Extension Channel ......................... NONE
+      Channel Width.............................. 20 Mhz
+      Allowed Channel List....................... 36,40,44,48,52,56,60,64,100,
+        ......................................... 104,108,112,116,132,136,140,
+        ......................................... 149,153,157,161,165
+      TI Threshold .............................. -50
+      DCA Channel List........................... Global
+      Legacy Tx Beamforming Configuration ....... CUSTOMIZED
+      Legacy Tx Beamforming ..................... ENABLED
+      Antenna Type............................... INTERNAL_ANTENNA
+      Internal Antenna Gain (in .5 dBi units).... 8
+      Diversity.................................. DIVERSITY_ENABLED
+      802.11n Antennas
+         A....................................... ENABLED
+         B....................................... ENABLED
+         C....................................... ENABLED
+         D....................................... ENABLED
+
+    Performance Profile Parameters
+      Configuration ............................. AUTOMATIC
+      Interference threshold..................... 10 %
+      Noise threshold............................  -70 dBm
+      RF utilization threshold................... 80 %
+      Data-rate threshold........................ 1000000 bps
+      Client threshold........................... 12 clients
+      Coverage SNR threshold..................... 16 dB
+      Coverage exception level................... 25 %
+      Client minimum exception level............. 3 clients
+    Rogue Containment Information
+    Containment Count............................ 0
+
+    CleanAir Management Information
+        CleanAir Capable......................... Yes
+        CleanAir Management Administration St.... Enabled
+        CleanAir Management Operation State...... Up
+        Rapid Update Mode........................ Off
+        Spectrum Expert connection............... Enabled
+          CleanAir NSI Key....................... 5F73075AE979EB7F1148971CFD0F92
+5D
+          Spectrum Expert Connections counter.... 0
+        CleanAir Sensor State.................... Configured
+
+
+ 
+
+Cisco AP Identifier.............................. 2
+Cisco AP Name.................................... BLUE
+Country code..................................... US  - United States
+Regulatory Domain allowed by Country............. 802.11bg:-A     802.11a:-A
+AP Country code.................................. US  - United States
+AP Regulatory Domain............................. -A
+Switch Port Number .............................. 1
+MAC Address...................................... 58:97:bd:26:e5:00
+IP Address Configuration......................... DHCP
+IP Address....................................... 10.0.0.12
+IP NetMask....................................... 255.255.255.0
+Gateway IP Addr.................................. 10.0.0.1
+NAT External IP Address.......................... None
+CAPWAP Path MTU.................................. 1485
+Telnet State..................................... Globally Disabled
+Ssh State........................................ Globally Disabled
+Cisco AP Location................................ Home
+Cisco AP Floor Label............................. 0
+Cisco AP Group Name.............................. default-group
+Primary Cisco Switch Name........................ 
+Primary Cisco Switch IP Address.................. Not Configured
+Secondary Cisco Switch Name...................... 
+Secondary Cisco Switch IP Address................ Not Configured
+Tertiary Cisco Switch Name....................... 
+Tertiary Cisco Switch IP Address................. Not Configured
+Administrative State ............................ ADMIN_ENABLED
+Operation State ................................. REGISTERED
+Mirroring Mode .................................. Disabled
+AP Mode ......................................... Local
+Public Safety ................................... Disabled 
+AP SubMode ...................................... Not Configured
+Remote AP Debug ................................. Disabled
+Logging trap severity level ..................... informational
+Logging syslog facility ......................... kern
+S/W  Version .................................... 8.0.120.0
+Boot  Version ................................... 15.2.4.0
+Mini IOS Version ................................ 8.0.115.0
+Stats Reporting Period .......................... 180
+Stats Collection Mode ........................... normal
+LED State........................................ Enabled
+PoE Pre-Standard Switch.......................... Disabled
+PoE Power Injector MAC Addr...................... Disabled
+Power Type/Mode.................................. PoE/Full Power
+Number Of Slots.................................. 2 
+AP Model......................................... AIR-CAP3702I-A-K9
+AP Image......................................... C3700-K9W8-M
+IOS Version...................................... 15.3(3)JA4$
+Reset Button..................................... Enabled
+AP Serial Number................................. FCW1928N4BU
+AP Certificate Type.............................. Manufacture Installed
+AP User Mode..................................... AUTOMATIC
+AP User Name..................................... Cisco
+AP Dot1x User Mode............................... Not Configured
+AP Dot1x User Name............................... Not Configured
+Cisco AP system logging host..................... 255.255.255.255
+AP Up Time....................................... 0 days, 00 h 04 m 02 s
+AP LWAPP Up Time................................. 0 days, 00 h 00 m 38 s
+Join Date and Time............................... Mon Dec  7 11:08:50 2015
+Join Taken Time.................................. 0 days, 00 h 00 m 10 s
+
+Attributes for Slot  0
+    Radio Type................................... RADIO_TYPE_80211n-2.4
+    Administrative State ........................ ADMIN_ENABLED
+    Operation State ............................. UP
+    Radio Role .................................. ACCESS
+    Radio Mode .................................. Local
+    CellId ...................................... 0
+
+    Station Configuration
+      Configuration ............................. AUTOMATIC
+      Number Of WLANs ........................... 1
+      Medium Occupancy Limit .................... 100
+      CFP Period ................................ 4
+      CFP MaxDuration ........................... 60
+      BSSID ..................................... 58:97:bd:3e:24:60
+      Operation Rate Set 
+        11000 Kilo Bits.......................... MANDATORY
+        12000 Kilo Bits.......................... SUPPORTED
+        18000 Kilo Bits.......................... SUPPORTED
+        24000 Kilo Bits.......................... SUPPORTED
+        36000 Kilo Bits.......................... SUPPORTED
+        48000 Kilo Bits.......................... SUPPORTED
+        54000 Kilo Bits.......................... SUPPORTED
+      MCS Set 
+        MCS 0.................................... SUPPORTED
+        MCS 1.................................... SUPPORTED
+        MCS 2.................................... SUPPORTED
+        MCS 3.................................... SUPPORTED
+        MCS 4.................................... SUPPORTED
+        MCS 5.................................... SUPPORTED
+        MCS 6.................................... SUPPORTED
+        MCS 7.................................... SUPPORTED
+        MCS 8.................................... SUPPORTED
+        MCS 9.................................... SUPPORTED
+        MCS 10................................... SUPPORTED
+        MCS 11................................... SUPPORTED
+        MCS 12................................... SUPPORTED
+        MCS 13................................... SUPPORTED
+        MCS 14................................... SUPPORTED
+        MCS 15................................... SUPPORTED
+        MCS 16................................... SUPPORTED
+        MCS 17................................... SUPPORTED
+        MCS 18................................... SUPPORTED
+        MCS 19................................... SUPPORTED
+        MCS 20................................... SUPPORTED
+        MCS 21................................... SUPPORTED
+        MCS 22................................... SUPPORTED
+        MCS 23................................... SUPPORTED
+      Beacon Period ............................. 100
+      Fragmentation Threshold ................... 2346
+      Multi Domain Capability Implemented ....... TRUE
+      Multi Domain Capability Enabled ........... TRUE
+      Country String ............................ US 
+
+    Multi Domain Capability
+      Configuration ............................. AUTOMATIC
+      First Chan Num ............................ 1
+      Number Of Channels ........................ 11
+
+    MAC Operation Parameters 
+      Configuration ............................. AUTOMATIC
+      Fragmentation Threshold ................... 2346
+      Packet Retry Limit ........................ 64
+
+    Tx Power 
+      Num Of Supported Power Levels ............. 8
+      Tx Power Level 1 .......................... 23 dBm
+      Tx Power Level 2 .......................... 20 dBm
+      Tx Power Level 3 .......................... 17 dBm
+      Tx Power Level 4 .......................... 14 dBm
+      Tx Power Level 5 .......................... 11 dBm
+      Tx Power Level 6 .......................... 8 dBm
+      Tx Power Level 7 .......................... 5 dBm
+      Tx Power Level 8 .......................... 2 dBm
+      Tx Power Configuration .................... AUTOMATIC
+      Current Tx Power Level .................... 8
+      Tx Power Assigned By ...................... DTPC
+
+    Phy OFDM parameters
+      Configuration ............................. AUTOMATIC
+      Current Channel ........................... 1
+      Channel Assigned By ....................... DCA
+      Extension Channel ......................... NONE
+      Channel Width.............................. 20 Mhz
+      Allowed Channel List....................... 1,2,3,4,5,6,7,8,9,10,11
+      TI Threshold .............................. -50
+      DCA Channel List........................... Global
+      Legacy Tx Beamforming Configuration ....... CUSTOMIZED
+      Legacy Tx Beamforming ..................... ENABLED
+      Antenna Type............................... INTERNAL_ANTENNA
+      Internal Antenna Gain (in .5 dBi units).... 8
+      Diversity.................................. DIVERSITY_ENABLED
+      802.11n Antennas
+         A....................................... ENABLED
+         B....................................... ENABLED
+         C....................................... ENABLED
+         D....................................... ENABLED
+
+    Performance Profile Parameters
+      Configuration ............................. AUTOMATIC
+      Interference threshold..................... 10 %
+      Noise threshold............................  -70 dBm
+      RF utilization threshold................... 80 %
+      Data-rate threshold........................ 1000000 bps
+      Client threshold........................... 12 clients
+      Coverage SNR threshold..................... 12 dB
+      Coverage exception level................... 25 %
+      Client minimum exception level............. 3 clients
+    Rogue Containment Information
+    Containment Count............................ 0
+
+    CleanAir Management Information
+        CleanAir Capable......................... Yes
+        CleanAir Management Administration St.... Enabled
+        CleanAir Management Operation State...... Up
+        Rapid Update Mode........................ Off
+        Spectrum Expert connection............... Enabled
+          CleanAir NSI Key....................... 8AC766C1D192FED14A115030517C85
+AC
+          Spectrum Expert Connections counter.... 0
+        CleanAir Sensor State.................... Configured
+
+    Radio Extended Configurations
+      Beacon period.............................. 100 milliseconds
+      Beacon range............................... AUTO
+      Multicast buffer........................... AUTO
+      Multicast data-rate........................ AUTO
+      RX SOP threshold........................... AUTO
+      CCA threshold.............................. AUTO
+
+Cisco AP Identifier.............................. 2
+Cisco AP Name.................................... BLUE
+Country code..................................... US  - United States
+Regulatory Domain allowed by Country............. 802.11bg:-A     802.11a:-A
+AP Country code.................................. US  - United States
+AP Regulatory Domain............................. -A
+Switch Port Number .............................. 1
+MAC Address...................................... 58:97:bd:26:e5:00
+IP Address Configuration......................... DHCP
+IP Address....................................... 10.0.0.12
+IP NetMask....................................... 255.255.255.0
+Gateway IP Addr.................................. 10.0.0.1
+NAT External IP Address.......................... None
+CAPWAP Path MTU.................................. 1485
+Telnet State..................................... Globally Disabled
+Ssh State........................................ Globally Disabled
+Cisco AP Location................................ Home
+Cisco AP Floor Label............................. 0
+Cisco AP Group Name.............................. default-group
+Primary Cisco Switch Name........................ 
+Primary Cisco Switch IP Address.................. Not Configured
+Secondary Cisco Switch Name...................... 
+Secondary Cisco Switch IP Address................ Not Configured
+Tertiary Cisco Switch Name....................... 
+Tertiary Cisco Switch IP Address................. Not Configured
+Administrative State ............................ ADMIN_ENABLED
+Operation State ................................. REGISTERED
+Mirroring Mode .................................. Disabled
+AP Mode ......................................... Local
+Public Safety ................................... Disabled 
+AP SubMode ...................................... Not Configured
+Remote AP Debug ................................. Disabled
+Logging trap severity level ..................... informational
+Logging syslog facility ......................... kern
+S/W  Version .................................... 8.0.120.0
+Boot  Version ................................... 15.2.4.0
+Mini IOS Version ................................ 8.0.115.0
+Stats Reporting Period .......................... 180
+Stats Collection Mode ........................... normal
+LED State........................................ Enabled
+PoE Pre-Standard Switch.......................... Disabled
+PoE Power Injector MAC Addr...................... Disabled
+Power Type/Mode.................................. PoE/Full Power
+Number Of Slots.................................. 2 
+AP Model......................................... AIR-CAP3702I-A-K9
+AP Image......................................... C3700-K9W8-M
+IOS Version...................................... 15.3(3)JA4$
+Reset Button..................................... Enabled
+AP Serial Number................................. FCW1928N4BU
+AP Certificate Type.............................. Manufacture Installed
+AP User Mode..................................... AUTOMATIC
+AP User Name..................................... Cisco
+AP Dot1x User Mode............................... Not Configured
+AP Dot1x User Name............................... Not Configured
+Cisco AP system logging host..................... 255.255.255.255
+AP Up Time....................................... 0 days, 00 h 04 m 02 s
+AP LWAPP Up Time................................. 0 days, 00 h 00 m 38 s
+Join Date and Time............................... Mon Dec  7 11:08:50 2015
+Join Taken Time.................................. 0 days, 00 h 00 m 10 s
+
+Attributes for Slot  1
+    Radio Type................................... RADIO_TYPE_80211ac-5
+    Radio Subband................................ RADIO_SUBBAND_ALL
+    Administrative State ........................ ADMIN_ENABLED
+    Operation State ............................. UP
+    Radio Role .................................. ACCESS
+    Radio Mode .................................. Local
+    CellId ...................................... 0
+
+    Station Configuration
+      Configuration ............................. AUTOMATIC
+      Number Of WLANs ........................... 1
+      Medium Occupancy Limit .................... 100
+      CFP Period ................................ 4
+      CFP MaxDuration ........................... 60
+      BSSID ..................................... 58:97:bd:3e:24:60
+      Operation Rate Set 
+        6000 Kilo Bits........................... MANDATORY
+        9000 Kilo Bits........................... SUPPORTED
+        12000 Kilo Bits.......................... MANDATORY
+        18000 Kilo Bits.......................... SUPPORTED
+        24000 Kilo Bits.......................... MANDATORY
+        36000 Kilo Bits.......................... SUPPORTED
+        48000 Kilo Bits.......................... SUPPORTED
+        54000 Kilo Bits.......................... SUPPORTED
+      MCS Set 
+        MCS 0.................................... SUPPORTED
+        MCS 1.................................... SUPPORTED
+        MCS 2.................................... SUPPORTED
+        MCS 3.................................... SUPPORTED
+        MCS 4.................................... SUPPORTED
+        MCS 5.................................... SUPPORTED
+        MCS 6.................................... SUPPORTED
+        MCS 7.................................... SUPPORTED
+        MCS 8.................................... SUPPORTED
+        MCS 9.................................... SUPPORTED
+        MCS 10................................... SUPPORTED
+        MCS 11................................... SUPPORTED
+        MCS 12................................... SUPPORTED
+        MCS 13................................... SUPPORTED
+        MCS 14................................... SUPPORTED
+        MCS 15................................... SUPPORTED
+        MCS 16................................... SUPPORTED
+        MCS 17................................... SUPPORTED
+        MCS 18................................... SUPPORTED
+        MCS 19................................... SUPPORTED
+        MCS 20................................... SUPPORTED
+        MCS 21................................... SUPPORTED
+        MCS 22................................... SUPPORTED
+        MCS 23................................... SUPPORTED
+      802.11ac MCS Set 
+        Nss=1: MCS 0-9 .......................... SUPPORTED
+        Nss=2: MCS 0-9 .......................... SUPPORTED
+        Nss=3: MCS 0-9 .......................... SUPPORTED
+      Beacon Period ............................. 100
+      Fragmentation Threshold ................... 2346
+      Multi Domain Capability Implemented ....... TRUE
+      Multi Domain Capability Enabled ........... TRUE
+      Country String ............................ US 
+
+    Multi Domain Capability
+      Configuration ............................. AUTOMATIC
+      First Chan Num ............................ 36
+      Number Of Channels ........................ 21
+
+    MAC Operation Parameters 
+      Configuration ............................. AUTOMATIC
+      Fragmentation Threshold ................... 2346
+      Packet Retry Limit ........................ 64
+
+    Tx Power 
+      Num Of Supported Power Levels ............. 8
+      Tx Power Level 1 .......................... 23 dBm
+      Tx Power Level 2 .......................... 20 dBm
+      Tx Power Level 3 .......................... 17 dBm
+      Tx Power Level 4 .......................... 14 dBm
+      Tx Power Level 5 .......................... 11 dBm
+      Tx Power Level 6 .......................... 8 dBm
+      Tx Power Level 7 .......................... 5 dBm
+      Tx Power Level 8 .......................... 2 dBm
+      Tx Power Configuration .................... AUTOMATIC
+      Current Tx Power Level .................... 6
+      Tx Power Assigned By ...................... DTPC
+
+    Phy OFDM parameters
+      Configuration ............................. AUTOMATIC
+      Current Channel ........................... 157
+      Channel Assigned By ....................... DCA
+      Extension Channel ......................... NONE
+      Channel Width.............................. 20 Mhz
+      Allowed Channel List....................... 36,40,44,48,52,56,60,64,100,
+        ......................................... 104,108,112,116,132,136,140,
+        ......................................... 149,153,157,161,165
+      TI Threshold .............................. -50
+      DCA Channel List........................... Global
+      Legacy Tx Beamforming Configuration ....... CUSTOMIZED
+      Legacy Tx Beamforming ..................... ENABLED
+      Antenna Type............................... INTERNAL_ANTENNA
+      Internal Antenna Gain (in .5 dBi units).... 8
+      Diversity.................................. DIVERSITY_ENABLED
+      802.11n Antennas
+         A....................................... ENABLED
+         B....................................... ENABLED
+         C....................................... ENABLED
+         D....................................... ENABLED
+
+    Performance Profile Parameters
+      Configuration ............................. AUTOMATIC
+      Interference threshold..................... 10 %
+      Noise threshold............................  -70 dBm
+      RF utilization threshold................... 80 %
+      Data-rate threshold........................ 1000000 bps
+      Client threshold........................... 12 clients
+      Coverage SNR threshold..................... 16 dB
+      Coverage exception level................... 25 %
+      Client minimum exception level............. 3 clients
+    Rogue Containment Information
+    Containment Count............................ 0
+
+    CleanAir Management Information
+        CleanAir Capable......................... Yes
+        CleanAir Management Administration St.... Enabled
+        CleanAir Management Operation State...... Up
+        Rapid Update Mode........................ Off
+        Spectrum Expert connection............... Enabled
+          CleanAir NSI Key....................... 8AC766C1D192FED14A115030517C85
+AC
+          Spectrum Expert Connections counter.... 0
+        CleanAir Sensor State.................... Configured
+
+    Radio Extended Configurations
+      Beacon period.............................. 100 milliseconds
+      Beacon range............................... AUTO
+      Multicast buffer........................... AUTO
+      Multicast data-rate........................ AUTO
+      RX SOP threshold........................... AUTO
+      CCA threshold.............................. AUTO
+
+
+ 
+
+
+ 
+
+AP Airewave Director Configuration
+Number Of Slots.................................. 2 
+AP Name.......................................... YELLOW
+MAC Address...................................... d4:6d:50:a7:87:80
+  Slot ID........................................ 0
+  Radio Type..................................... RADIO_TYPE_80211b/g
+  Sub-band Type.................................. All
+  Noise Information
+    Noise Profile................................ PASSED
+  Interference Information
+    Interference Profile......................... PASSED
+  Load Information
+    Load Profile................................. PASSED
+    Receive Utilization.......................... 0 %
+    Transmit Utilization......................... 0 %
+    Channel Utilization.......................... 33 %
+    Attached Clients............................. 0 clients
+  Coverage Information
+    Coverage Profile............................. PASSED
+    Failed Clients............................... 0 clients
+  Client Signal Strengths
+    RSSI -100 dbm................................ 0 clients
+    RSSI  -92 dbm................................ 0 clients
+    RSSI  -84 dbm................................ 0 clients
+    RSSI  -76 dbm................................ 0 clients
+    RSSI  -68 dbm................................ 0 clients
+    RSSI  -60 dbm................................ 0 clients
+    RSSI  -52 dbm................................ 0 clients
+  Client Signal To Noise Ratios
+    SNR    0 dB.................................. 0 clients
+    SNR    5 dB.................................. 0 clients
+    SNR   10 dB.................................. 0 clients
+    SNR   15 dB.................................. 0 clients
+    SNR   20 dB.................................. 0 clients
+    SNR   25 dB.................................. 0 clients
+    SNR   30 dB.................................. 0 clients
+    SNR   35 dB.................................. 0 clients
+    SNR   40 dB.................................. 0 clients
+    SNR   45 dB.................................. 0 clients
+  Nearby APs
+  Radar Information
+  Channel Assignment Information
+    Current Channel Average Energy............... unknown
+    Previous Channel Average Energy.............. unknown
+    Channel Change Count......................... 0
+    Last Channel Change Time..................... Mon Dec  7 11:07:20 2015
+    Recommended Best Channel..................... 11
+  RF Parameter Recommendations
+    Power Level.................................. 8
+    RTS/CTS Threshold............................ 2347
+    Fragmentation Threshold...................... 2346
+    Antenna Pattern.............................. 0
+
+  Persistent Interference Devices
+  Class Type                 Channel  DC (%%)  RSSI (dBm)  Last Update Time
+  -------------------------  -------  ------  ----------  ----------------------
+--
+  All third party trademarks are the property of their respective owners.
+Number Of Slots.................................. 2 
+AP Name.......................................... YELLOW
+MAC Address...................................... d4:6d:50:a7:87:80
+  Slot ID........................................ 1
+  Radio Type..................................... RADIO_TYPE_80211a
+  Sub-band Type.................................. All
+  Noise Information
+    Noise Profile................................ PASSED
+  Interference Information
+    Interference Profile......................... PASSED
+    Rogue Histogram (20/40/80)
+    ............................................. 
+  Load Information
+    Load Profile................................. PASSED
+    Receive Utilization.......................... 0 %
+    Transmit Utilization......................... 0 %
+    Channel Utilization.......................... 0 %
+    Attached Clients............................. 0 clients
+  Coverage Information
+    Coverage Profile............................. PASSED
+    Failed Clients............................... 0 clients
+  Client Signal Strengths
+    RSSI -100 dbm................................ 0 clients
+    RSSI  -92 dbm................................ 0 clients
+    RSSI  -84 dbm................................ 0 clients
+    RSSI  -76 dbm................................ 0 clients
+    RSSI  -68 dbm................................ 0 clients
+    RSSI  -60 dbm................................ 0 clients
+    RSSI  -52 dbm................................ 0 clients
+  Client Signal To Noise Ratios
+    SNR    0 dB.................................. 0 clients
+    SNR    5 dB.................................. 0 clients
+    SNR   10 dB.................................. 0 clients
+    SNR   15 dB.................................. 0 clients
+    SNR   20 dB.................................. 0 clients
+    SNR   25 dB.................................. 0 clients
+    SNR   30 dB.................................. 0 clients
+    SNR   35 dB.................................. 0 clients
+    SNR   40 dB.................................. 0 clients
+    SNR   45 dB.................................. 0 clients
+  Nearby APs
+    AP 58:97:bd:3e:24:60 slot 1..................  -54 dBm on 157 (0a:00:00:0a:0
+0:4b)
+  Radar Information
+  Channel Assignment Information
+    Current Channel Average Energy............... unknown
+    Previous Channel Average Energy.............. unknown
+    Channel Change Count......................... 0
+    Last Channel Change Time..................... Mon Dec  7 11:07:20 2015
+    Recommended Best Channel..................... 36
+  RF Parameter Recommendations
+    Power Level.................................. 3
+    RTS/CTS Threshold............................ 2347
+    Fragmentation Threshold...................... 2346
+    Antenna Pattern.............................. 0
+
+  Persistent Interference Devices
+  Class Type                 Channel  DC (%%)  RSSI (dBm)  Last Update Time
+  -------------------------  -------  ------  ----------  ----------------------
+--
+  All third party trademarks are the property of their respective owners.
+
+ 
+
+Number Of Slots.................................. 2 
+AP Name.......................................... BLUE
+MAC Address...................................... 58:97:bd:26:e5:00
+  Slot ID........................................ 0
+  Radio Type..................................... RADIO_TYPE_80211b/g
+  Sub-band Type.................................. All
+  Noise Information
+    Noise Profile................................ PASSED
+  Interference Information
+    Interference Profile......................... PASSED
+  Load Information
+    Load Profile................................. PASSED
+    Receive Utilization.......................... 0 %
+    Transmit Utilization......................... 0 %
+    Channel Utilization.......................... 0 %
+    Attached Clients............................. 0 clients
+  Coverage Information
+    Coverage Profile............................. PASSED
+    Failed Clients............................... 0 clients
+  Client Signal Strengths
+    RSSI -100 dbm................................ 0 clients
+    RSSI  -92 dbm................................ 0 clients
+    RSSI  -84 dbm................................ 0 clients
+    RSSI  -76 dbm................................ 0 clients
+    RSSI  -68 dbm................................ 0 clients
+    RSSI  -60 dbm................................ 0 clients
+    RSSI  -52 dbm................................ 0 clients
+  Client Signal To Noise Ratios
+    SNR    0 dB.................................. 0 clients
+    SNR    5 dB.................................. 0 clients
+    SNR   10 dB.................................. 0 clients
+    SNR   15 dB.................................. 0 clients
+    SNR   20 dB.................................. 0 clients
+    SNR   25 dB.................................. 0 clients
+    SNR   30 dB.................................. 0 clients
+    SNR   35 dB.................................. 0 clients
+    SNR   40 dB.................................. 0 clients
+    SNR   45 dB.................................. 0 clients
+  Nearby APs
+  Radar Information
+  Channel Assignment Information
+    Current Channel Average Energy............... unknown
+    Previous Channel Average Energy.............. unknown
+    Channel Change Count......................... 0
+    Last Channel Change Time..................... Mon Dec  7 11:08:49 2015
+    Recommended Best Channel..................... 1
+  RF Parameter Recommendations
+    Power Level.................................. 8
+    RTS/CTS Threshold............................ 2347
+    Fragmentation Threshold...................... 2346
+    Antenna Pattern.............................. 0
+
+  Persistent Interference Devices
+  Class Type                 Channel  DC (%%)  RSSI (dBm)  Last Update Time
+  -------------------------  -------  ------  ----------  ----------------------
+--
+  All third party trademarks are the property of their respective owners.
+Number Of Slots.................................. 2 
+AP Name.......................................... BLUE
+MAC Address...................................... 58:97:bd:26:e5:00
+  Slot ID........................................ 1
+  Radio Type..................................... RADIO_TYPE_80211a
+  Sub-band Type.................................. All
+  Noise Information
+    Noise Profile................................ PASSED
+  Interference Information
+    Interference Profile......................... PASSED
+    Rogue Histogram (20/40/80)
+    ............................................. 
+  Load Information
+    Load Profile................................. PASSED
+    Receive Utilization.......................... 0 %
+    Transmit Utilization......................... 0 %
+    Channel Utilization.......................... 0 %
+    Attached Clients............................. 0 clients
+  Coverage Information
+    Coverage Profile............................. PASSED
+    Failed Clients............................... 0 clients
+  Client Signal Strengths
+    RSSI -100 dbm................................ 0 clients
+    RSSI  -92 dbm................................ 0 clients
+    RSSI  -84 dbm................................ 0 clients
+    RSSI  -76 dbm................................ 0 clients
+    RSSI  -68 dbm................................ 0 clients
+    RSSI  -60 dbm................................ 0 clients
+    RSSI  -52 dbm................................ 0 clients
+  Client Signal To Noise Ratios
+    SNR    0 dB.................................. 0 clients
+    SNR    5 dB.................................. 0 clients
+    SNR   10 dB.................................. 0 clients
+    SNR   15 dB.................................. 0 clients
+    SNR   20 dB.................................. 0 clients
+    SNR   25 dB.................................. 0 clients
+    SNR   30 dB.................................. 0 clients
+    SNR   35 dB.................................. 0 clients
+    SNR   40 dB.................................. 0 clients
+    SNR   45 dB.................................. 0 clients
+  Nearby APs
+  Radar Information
+  Channel Assignment Information
+    Current Channel Average Energy............... unknown
+    Previous Channel Average Energy.............. unknown
+    Channel Change Count......................... 0
+    Last Channel Change Time..................... Mon Dec  7 11:08:49 2015
+    Recommended Best Channel..................... 157
+  RF Parameter Recommendations
+    Power Level.................................. 6
+    RTS/CTS Threshold............................ 2347
+    Fragmentation Threshold...................... 2346
+    Antenna Pattern.............................. 0
+
+  Persistent Interference Devices
+  Class Type                 Channel  DC (%%)  RSSI (dBm)  Last Update Time
+  -------------------------  -------  ------  ----------  ----------------------
+--
+  All third party trademarks are the property of their respective owners.
+
+ 
+
+
+ 
+
+802.11a Configuration
+802.11a Network.................................. Enabled
+11acSupport...................................... Enabled
+11nSupport....................................... Enabled
+      802.11a Low Band........................... Enabled
+      802.11a Mid Band........................... Enabled
+      802.11a High Band.......................... Enabled
+802.11a Operational Rates
+    802.11a 6M Rate.............................. Mandatory
+    802.11a 9M Rate.............................. Supported
+    802.11a 12M Rate............................. Mandatory
+    802.11a 18M Rate............................. Supported
+    802.11a 24M Rate............................. Mandatory
+    802.11a 36M Rate............................. Supported
+    802.11a 48M Rate............................. Supported
+    802.11a 54M Rate............................. Supported
+802.11n MCS Settings:
+    MCS 0........................................ Supported
+    MCS 1........................................ Supported
+    MCS 2........................................ Supported
+    MCS 3........................................ Supported
+    MCS 4........................................ Supported
+    MCS 5........................................ Supported
+    MCS 6........................................ Supported
+    MCS 7........................................ Supported
+    MCS 8........................................ Supported
+    MCS 9........................................ Supported
+    MCS 10....................................... Supported
+    MCS 11....................................... Supported
+    MCS 12....................................... Supported
+    MCS 13....................................... Supported
+    MCS 14....................................... Supported
+    MCS 15....................................... Supported
+    MCS 16....................................... Supported
+    MCS 17....................................... Supported
+    MCS 18....................................... Supported
+    MCS 19....................................... Supported
+    MCS 20....................................... Supported
+    MCS 21....................................... Supported
+    MCS 22....................................... Supported
+    MCS 23....................................... Supported
+802.11ac MCS Settings:
+    Nss=1: MCS 0-9 .............................. Supported
+    Nss=2: MCS 0-9 .............................. Supported
+    Nss=3: MCS 0-9 .............................. Supported
+802.11n Status:
+    A-MPDU Tx:
+        Priority 0............................... Enabled
+        Priority 1............................... Enabled
+        Priority 2............................... Enabled
+        Priority 3............................... Enabled
+        Priority 4............................... Enabled
+        Priority 5............................... Enabled
+        Priority 6............................... Disabled
+        Priority 7............................... Disabled
+        Aggregation scheduler.................... Enabled
+        Frame Burst.............................. Automatic
+            Realtime Timeout..................... 10
+    A-MSDU Tx:
+        Priority 0............................... Enabled
+        Priority 1............................... Enabled
+        Priority 2............................... Enabled
+        Priority 3............................... Enabled
+        Priority 4............................... Enabled
+        Priority 5............................... Enabled
+        Priority 6............................... Disabled
+        Priority 7............................... Disabled
+    Rifs Rx ..................................... Enabled
+    Guard Interval .............................. Any
+Beacon Interval.................................. 100
+CF Pollable mandatory............................ Disabled
+CF Poll Request mandatory........................ Disabled
+CFP Period....................................... 4
+CFP Maximum Duration............................. 60
+Default Channel.................................. 36
+Default Tx Power Level........................... 0
+DTPC  Status..................................... Enabled
+Fragmentation Threshold.......................... 2346
+RSSI Low Check................................... Disabled
+RSSI Threshold................................... -80
+TI Threshold..................................... -50
+Legacy Tx Beamforming setting.................... Disabled
+Traffic Stream Metrics Status.................... Disabled
+Expedited BW Request Status...................... Disabled
+World Mode....................................... Enabled
+dfs-peakdetect................................... Enabled
+EDCA profile type................................ default-wmm
+Voice MAC optimization status.................... Disabled
+Call Admission Control (CAC) configuration
+Voice AC:
+   Voice AC - Admission control (ACM)............ Disabled
+   Voice Stream-Size............................. 84000
+   Voice Max-Streams............................. 2
+   Voice max RF bandwidth........................ 75
+   Voice reserved roaming bandwidth.............. 6
+   Voice CAC Method ............................. Load-Based
+   Voice tspec inactivity timeout................ Disabled
+ CAC SIP-Voice configuration
+   SIP based CAC ................................ Disabled
+   SIP Codec Type ............................... CODEC_TYPE_G711
+   SIP call bandwidth ........................... 64
+   SIP call bandwith sample-size ................ 20
+Video AC:
+   Video AC - Admission control (ACM)............ Disabled
+   Video max RF bandwidth........................ Infinite
+   Video reserved roaming bandwidth.............. 0
+   Video load-based CAC mode..................... Disabled
+   Video CAC Method ............................. Static
+ CAC SIP-Video Configuration
+   SIP based CAC ................................ Disabled
+   Best-effort AC - Admission control (ACM)...... Disabled
+   Background AC - Admission control (ACM)....... Disabled
+Maximum Number of Clients per AP Radio........... 200
+
+ 
+
+802.11a Advanced Configuration
+Member RRM Information
+AP Name                          MAC Address       Slot Admin    Oper        Cha
+nnel            TxPower
+-------------------------------- ----------------- ---- -------- ----------- ---
+--------------- -------------
+YELLOW                           74:a0:2f:6b:81:40  1   ENABLED  UP          36*
+                *3/5 ( 9 dBm)
+BLUE                             58:97:bd:3e:24:60  1   ENABLED  UP          157
+*               *6/8 ( 8 dBm)
+
+ 
+
+802.11a Airewave Director Configuration
+RF Event and Performance Logging
+  Channel Update Logging......................... Off
+  Coverage Profile Logging....................... Off
+  Foreign Profile Logging........................ Off
+  Load Profile Logging........................... Off
+  Noise Profile Logging.......................... Off
+  Performance Profile Logging.................... Off
+  TxPower Update Logging......................... Off
+Default 802.11a AP performance profiles
+  802.11a Global Interference threshold.......... 10 %
+  802.11a Global noise threshold................. -70 dBm
+  802.11a Global RF utilization threshold........ 80 %
+  802.11a Global throughput threshold............ 1000000 bps
+  802.11a Global clients threshold............... 12 clients
+Default 802.11a AP monitoring
+  802.11a Monitor Mode........................... enable
+  802.11a Monitor Mode for Mesh AP Backhaul...... disable
+  802.11a Monitor Channels....................... Country channels
+  802.11a RRM Neighbor Discover Type............. Transparent
+  802.11a RRM Neighbor RSSI Normalization........ Enabled
+  802.11a AP Coverage Interval................... 90 seconds
+  802.11a AP Load Interval....................... 60 seconds
+  802.11a AP Noise Interval...................... 180 seconds
+  802.11a AP Signal Strength Interval............ 60 seconds
+  802.11a AP Neighbor Report Interval............ 180 seconds
+  802.11a AP Interference Report Interval........ 120 seconds
+Leader Automatic Transmit Power Assignment
+  Transmit Power Assignment Mode................. AUTO
+  Transmit Power Update Interval................. 600 seconds
+  Transmit Power Threshold....................... -70 dBm
+  Transmit Power Neighbor Count.................. 3 APs
+  Min Transmit Power............................. -10 dBm
+  Max Transmit Power............................. 9 dBm
+  Update Contribution
+    Noise........................................ Enable
+    Interference................................. Enable
+    Load......................................... Disable
+    Device Aware................................. Disable
+  Transmit Power Assignment Leader............... WLC2504 (10.0.0.10) (::)
+  Last Run....................................... 294 seconds ago
+  Last Run Time.................................. 0 seconds
+  TPC Mode....................................... Version 1
+  TPCv2 Target RSSI.............................. -67 dBm
+  TPCv2 VoWLAN Guide RSSI........................ -67.0 dBm
+  TPCv2 SOP...................................... -85.0 dBm
+  TPCv2 Default Client Ant Gain..................   0.0 dBi
+  TPCv2 Path Loss Decay Factor...................   3.6
+  TPCv2 Search Intensity......................... 10 Iterations
+
+
+
+AP Name                          Channel    TxPower       Allowed Power Levels  
+  
+-------------------------------- ---------- ------------- ----------------------
+--
+YELLOW                           *36        *3/5 ( 9 dBm) [15/12/9/6/3/3/3/3]
+BLUE                             *157       *6/8 ( 8 dBm) [23/20/17/14/11/8/5/2]
+Coverage Hole Detection 
+  802.11a Coverage Hole Detection Mode........... Enabled
+  802.11a Coverage Voice Packet Count............ 100 packets
+  802.11a Coverage Voice Packet Percentage....... 50%
+  802.11a Coverage Voice RSSI Threshold.......... -80 dBm
+  802.11a Coverage Data Packet Count............. 50 packets
+  802.11a Coverage Data Packet Percentage........ 50%
+  802.11a Coverage Data RSSI Threshold........... -80 dBm
+  802.11a Global coverage exception level........ 25 %
+  802.11a Global client minimum exception lev.... 3 clients
+OptimizedRoaming 
+  802.11a OptimizedRoaming Mode.................. Disabled
+  802.11a OptimizedRoaming Reporting Interval.... 90 seconds
+  802.11a OptimizedRoaming Rate Threshold........ disabled
+OptimizedRoaming Stats
+  802.11a OptimizedRoaming Disassociations....... 0
+  802.11a OptimizedRoaming Rejections............ 0 
+ Leader Automatic Channel Assignment
+  Channel Assignment Mode........................ AUTO
+  Channel Update Interval........................ 600 seconds
+  Anchor time (Hour of the day).................. 0 
+  Update Contribution
+    Noise........................................ Enable
+    Interference................................. Enable
+    Load......................................... Disable
+    Device Aware................................. Disable
+  CleanAir Event-driven RRM option............... Disabled
+  CleanAir Event-driven RRM sensitivity.......... Medium
+  Channel Assignment Leader...................... WLC2504 (10.0.0.10) (::)
+  Last Run....................................... 294 seconds ago
+  Last Run Time.................................. 0 seconds
+  DCA Sensitivity Level.......................... MEDIUM (15 dB)
+  DCA 802.11n/ac Channel Width................... 20 MHz
+  DCA Minimum Energy Limit....................... -95 dBm
+  Channel Energy Levels 
+    Minimum...................................... unknown
+    Average...................................... unknown
+    Maximum...................................... unknown
+  Channel Dwell Times 
+    Minimum...................................... 0 days, 00 h 00 m 46 s
+    Average...................................... 0 days, 00 h 01 m 30 s
+    Maximum...................................... 0 days, 00 h 02 m 15 s
+  802.11a 5 GHz Auto-RF Channel List
+    Allowed Channel List......................... 36,40,44,48,149,153,157,161
+    Unused Channel List.......................... 52,56,60,64,100,104,108,112,
+                                                  116,132,136,140,144,165
+  802.11a 4.9 GHz Auto-RF Channel List
+    Allowed Channel List......................... 
+    Unused Channel List.......................... 1,2,3,4,5,6,7,8,9,10,11,12,
+                                                  13,14,15,16,17,18,19,20,21,
+                                                  22,23,24,25,26
+  DCA Outdoor AP option.......................... Disabled
+802.11a Radio RF Grouping
+  RF Group Name.................................. WLC2504
+  RF Protocol Version(MIN)....................... 100(30)
+  RF Packet Header Version....................... 2
+  Group Role(Mode)............................... LEADER(AUTO)
+  Group State.................................... Idle
+  Group Update Interval.......................... 300 seconds
+  Group Leader................................... WLC2504 (10.0.0.10) (::)
+  Group Member
+                ................................. WLC2504 (10.0.0.10)
+  Maximum/Current number of Group Member......... 20/1
+  Maximum/Current number of AP................... 500/0
+  Last Run....................................... 294 seconds ago
+802.11a CleanAir Configuration
+
+Clean Air Solution............................... Enabled
+Air Quality Settings:
+    Air Quality Reporting........................ Enabled
+    Air Quality Reporting Period (min)........... 15
+    Air Quality Alarms........................... Enabled
+      Air Quality Alarm Threshold................ 35
+      Unclassified Interference.................. Disabled
+      Unclassified Severity Threshold............ 20
+Interference Device Settings:
+    Interference Device Reporting................ Enabled
+    Interference Device Types:
+        TDD Transmitter.......................... Enabled
+        Jammer................................... Enabled
+        Continuous Transmitter................... Enabled
+        DECT-like Phone.......................... Enabled
+        Video Camera............................. Enabled
+        WiFi Inverted............................ Enabled
+        WiFi Invalid Channel..................... Enabled
+        SuperAG.................................. Enabled
+        Canopy................................... Enabled
+        WiMax Mobile............................. Enabled
+        WiMax Fixed.............................. Enabled
+    Interference Device Alarms................... Enabled
+    Interference Device Types Triggering Alarms:
+        TDD Transmitter.......................... Disabled
+        Jammer................................... Enabled
+        Continuous Transmitter................... Disabled
+        DECT-like Phone.......................... Disabled
+        Video Camera............................. Disabled
+        WiFi Inverted............................ Enabled
+        WiFi Invalid Channel..................... Enabled
+        SuperAG.................................. Disabled
+        Canopy................................... Disabled
+        WiMax Mobile............................. Disabled
+        WiMax Fixed.............................. Disabled
+Additional Clean Air Settings:
+    CleanAir ED-RRM State........................ Disabled
+    CleanAir ED-RRM Sensitivity.................. Medium
+    CleanAir ED-RRM Custom Threshold............. 50
+    CleanAir Persistent Devices state............ Disabled
+    CleanAir Persistent Device Propagation....... Disabled
+
+802.11a CleanAir AirQuality Summary
+AQ = Air Quality 
+DFS = Dynamic Frequency Selection
+ 
+AP Name            Channel Avg AQ Min AQ Interferers DFS
+------------------ ------- ------ ------ ----------- ---
+YELLOW             36      99     99     0           
+
+ 
+
+802.11b Configuration
+802.11b Network.................................. Enabled
+11gSupport....................................... Enabled
+11nSupport....................................... Enabled
+802.11b/g Operational Rates
+    802.11b/g 1M Rate............................ Disabled
+    802.11b/g 2M Rate............................ Disabled
+    802.11b/g 5.5M Rate.......................... Disabled
+    802.11b/g 11M Rate........................... Mandatory
+    802.11g 6M Rate.............................. Disabled
+    802.11g 9M Rate.............................. Disabled
+    802.11g 12M Rate............................. Supported
+    802.11g 18M Rate............................. Supported
+    802.11g 24M Rate............................. Supported
+    802.11g 36M Rate............................. Supported
+    802.11g 48M Rate............................. Supported
+    802.11g 54M Rate............................. Supported
+802.11n MCS Settings:
+    MCS 0........................................ Supported
+    MCS 1........................................ Supported
+    MCS 2........................................ Supported
+    MCS 3........................................ Supported
+    MCS 4........................................ Supported
+    MCS 5........................................ Supported
+    MCS 6........................................ Supported
+    MCS 7........................................ Supported
+    MCS 8........................................ Supported
+    MCS 9........................................ Supported
+    MCS 10....................................... Supported
+    MCS 11....................................... Supported
+    MCS 12....................................... Supported
+    MCS 13....................................... Supported
+    MCS 14....................................... Supported
+    MCS 15....................................... Supported
+    MCS 16....................................... Supported
+    MCS 17....................................... Supported
+    MCS 18....................................... Supported
+    MCS 19....................................... Supported
+    MCS 20....................................... Supported
+    MCS 21....................................... Supported
+    MCS 22....................................... Supported
+    MCS 23....................................... Supported
+802.11n Status:
+    A-MPDU Tx:
+        Priority 0............................... Enabled
+        Priority 1............................... Enabled
+        Priority 2............................... Enabled
+        Priority 3............................... Enabled
+        Priority 4............................... Enabled
+        Priority 5............................... Enabled
+        Priority 6............................... Disabled
+        Priority 7............................... Disabled
+        Aggregation scheduler.................... Enabled
+            Realtime Timeout..................... 10
+    A-MSDU Tx:
+        Priority 0............................... Enabled
+        Priority 1............................... Enabled
+        Priority 2............................... Enabled
+        Priority 3............................... Enabled
+        Priority 4............................... Enabled
+        Priority 5............................... Enabled
+        Priority 6............................... Disabled
+        Priority 7............................... Disabled
+    Rifs Rx ..................................... Enabled
+    Guard Interval .............................. Any
+Beacon Interval.................................. 100
+CF Pollable mode................................. Disabled
+CF Poll Request mandatory........................ Disabled
+CFP Period....................................... 4
+CFP Maximum Duration............................. 60
+Default Channel.................................. 1
+Default Tx Power Level........................... 0
+DTPC  Status..................................... Enabled
+RSSI Low Check................................... Disabled
+RSSI Threshold................................... -80
+Call Admission Limit  ........................... 105
+G711 CU Quantum ................................. 15
+ED Threshold..................................... -50
+Fragmentation Threshold.......................... 2346
+PBCC mandatory................................... Disabled
+RTS Threshold.................................... 2347
+Short Preamble mandatory......................... Enabled
+Short Retry Limit................................ 7
+Legacy Tx Beamforming setting.................... Disabled
+Traffic Stream Metrics Status.................... Disabled
+Expedited BW Request Status...................... Disabled
+World Mode....................................... Enabled
+Faster Carrier Tracking Loop..................... Disabled
+EDCA profile type................................ default-wmm
+Voice MAC optimization status.................... Disabled
+Call Admission Control (CAC) configuration
+   Voice AC - Admission control (ACM)............ Disabled
+   Voice Stream-Size............................. 84000
+   Voice Max-Streams............................. 2
+   Voice max RF bandwidth........................ 75
+   Voice reserved roaming bandwidth.............. 6
+   Voice CAC Method.............................. Load-Based
+   Voice tspec inactivity timeout................ Disabled
+CAC SIP-Voice configuration
+   SIP based CAC ................................ Disabled
+   SIP Codec Type ............................... CODEC_TYPE_G711
+   SIP call bandwidth: .......................... 64
+   SIP call bandwidth sample-size ............... 20
+   Video AC - Admission control (ACM)............ Disabled
+   Video max RF bandwidth........................ Infinite
+   Video reserved roaming bandwidth.............. 0
+   Video load-based CAC mode..................... Disabled
+   Video CAC Method ............................. Static
+CAC SIP-Video configuration
+   SIP based CAC ................................ Disabled
+   Best-effort AC - Admission control (ACM)...... Disabled
+   Background AC - Admission control (ACM)....... Disabled
+Maximum Number of Clients per AP................. 200
+
+ 
+
+802.11b Advanced Configuration
+Member RRM Information
+AP Name                          MAC Address       Admin    Oper        Channel 
+   TxPower
+-------------------------------- ----------------- -------- ----------- --------
+-- -------------
+YELLOW                           74:a0:2f:6b:81:40 ENABLED  UP          11*     
+   *8/8 ( 1 dBm)
+BLUE                             58:97:bd:3e:24:60 ENABLED  UP          1*      
+   *8/8 ( 2 dBm)
+
+ 
+
+802.11b Airewave Director Configuration
+RF Event and Performance Logging
+  Channel Update Logging......................... Off
+  Coverage Profile Logging....................... Off
+  Foreign Profile Logging........................ Off
+  Load Profile Logging........................... Off
+  Noise Profile Logging.......................... Off
+  Performance Profile Logging.................... Off
+  Transmit Power Update Logging.................. Off
+Default 802.11b AP performance profiles
+  802.11b Global Interference threshold.......... 10 %
+  802.11b Global noise threshold................. -70 dBm
+  802.11b Global RF utilization threshold........ 80 %
+  802.11b Global throughput threshold............ 1000000 bps
+  802.11b Global clients threshold............... 12 clients
+Default 802.11b AP monitoring
+  802.11b Monitor Mode........................... enable
+  802.11b Monitor Channels....................... Country channels
+  802.11b RRM Neighbor Discovery Type............ Transparent
+  802.11b RRM Neighbor RSSI Normalization........ Enabled
+  802.11b AP Coverage Interval................... 90 seconds
+  802.11b AP Load Interval....................... 60 seconds
+  802.11b AP Noise Interval...................... 180 seconds
+  802.11b AP Signal Strength Interval............ 60 seconds
+  802.11b AP Neighbor Report Interval............ 180 seconds
+  802.11b AP Interference Report Interval........ 120 seconds
+Leader Automatic Transmit Power Assignment
+  Transmit Power Assignment Mode................. AUTO
+  Transmit Power Update Interval................. 600 seconds
+  Transmit Power Threshold....................... -70 dBm
+  Transmit Power Neighbor Count.................. 3 APs
+  Min Transmit Power............................. -10 dBm
+  Max Transmit Power............................. 2 dBm
+  Update Contribution
+    Noise........................................ Enable
+    Interference................................. Enable
+    Load......................................... Disable
+    Device Aware................................. Disable
+  Transmit Power Assignment Leader............... WLC2504 (10.0.0.10) (::)
+  Last Run....................................... 298 seconds ago
+  Last Run Time.................................. 0 seconds
+  TPC Mode....................................... Version 1
+  TPCv2 Target RSSI.............................. -67 dBm
+  TPCv2 VoWLAN Guide RSSI........................ -67.0 dBm
+  TPCv2 SOP...................................... -85.0 dBm
+  TPCv2 Default Client Ant Gain..................   0.0 dBi
+  TPCv2 Path Loss Decay Factor...................   3.6
+  TPCv2 Search Intensity......................... 10 Iterations
+
+
+
+AP Name                          Channel    TxPower       Allowed Power Levels  
+  
+-------------------------------- ---------- ------------- ----------------------
+--
+YELLOW                           *11        *8/8 ( 1 dBm) [22/19/16/13/10/7/4/1]
+BLUE                             *1         *8/8 ( 2 dBm) [23/20/17/14/11/8/5/2]
+Coverage Hole Detection 
+  802.11b Coverage Hole Detection Mode........... Enabled
+  802.11b Coverage Voice Packet Count............ 100 packets
+  802.11b Coverage Voice Packet Percentage....... 50%
+  802.11b Coverage Voice RSSI Threshold.......... -80 dBm
+  802.11b Coverage Data Packet Count............. 50 packets
+  802.11b Coverage Data Packet Percentage........ 50%
+  802.11b Coverage Data RSSI Threshold........... -80 dBm
+  802.11b Global coverage exception level........ 25 %
+  802.11b Global client minimum exception lev.... 3 clients
+OptimizedRoaming 
+  802.11b OptimizedRoaming Mode.................. Disabled
+  802.11b OptimizedRoaming Reporting Interval.... 90 seconds
+  802.11b OptimizedRoaming Rate Threshold........ disabled
+OptimizedRoaming Stats
+  802.11b OptimizedRoaming Disassociations....... 0
+  802.11b OptimizedRoaming Rejections............ 0 
+Leader Automatic Channel Assignment
+  Channel Assignment Mode........................ AUTO
+  Channel Update Interval........................ 600 seconds
+  Anchor time (Hour of the day).................. 0 
+  Update Contribution
+    Noise........................................ Enable
+    Interference................................. Enable
+    Load......................................... Disable
+    Device Aware................................. Disable
+  CleanAir Event-driven RRM option............... Disabled
+  CleanAir Event-driven RRM sensitivity.......... Medium
+  Channel Assignment Leader...................... WLC2504 (::)
+  Last Run....................................... 298 seconds ago
+  Last Run Time.................................. 0 seconds
+
+  DCA Sensitivity Level: ...................... MEDIUM (10 dB)
+  DCA Minimum Energy Limit....................... -95 dBm
+  Channel Energy Levels 
+    Minimum...................................... unknown
+    Average...................................... unknown
+    Maximum...................................... unknown
+  Channel Dwell Times 
+    Minimum...................................... 0 days, 00 h 00 m 49 s
+    Average...................................... 0 days, 00 h 01 m 33 s
+    Maximum...................................... 0 days, 00 h 02 m 18 s
+  802.11b Auto-RF Allowed Channel List........... 1,6,11
+  Auto-RF Unused Channel List.................... 2,3,4,5,7,8,9,10
+802.11b Radio RF Grouping
+  RF Group Name.................................. WLC2504
+  RF Protocol Version(MIN)....................... 100(30)
+  RF Packet Header Version....................... 2
+  Group Role(Mode)............................... LEADER(AUTO)
+  Group State.................................... Idle
+  Group Update Interval.......................... 300 seconds
+  Group Leader................................... WLC2504 (10.0.0.10) (::)
+  Group Member
+                ................................. WLC2504 (10.0.0.10)
+  Maximum/Current number of Group Member......... 20/1
+  Maximum/Current number of AP................... 500/0
+  Last Run....................................... 298 seconds ago
+802.11b CleanAir Configuration
+
+Clean Air Solution............................... Enabled
+Air Quality Settings:
+    Air Quality Reporting........................ Enabled
+    Air Quality Reporting Period (min)........... 15
+    Air Quality Alarms........................... Enabled
+      Air Quality Alarm Threshold................ 35
+      Unclassified Interference.................. Disabled
+      Unclassified Severity Threshold............ 20
+Interference Device Settings:
+    Interference Device Reporting................ Enabled
+    Interference Device Types:
+        Bluetooth Link........................... Enabled
+        Microwave Oven........................... Enabled
+        802.11 FH................................ Enabled
+        Bluetooth Discovery...................... Enabled
+        TDD Transmitter.......................... Enabled
+        Jammer................................... Enabled
+        Continuous Transmitter................... Enabled
+        DECT-like Phone.......................... Enabled
+        Video Camera............................. Enabled
+        802.15.4................................. Enabled
+        WiFi Inverted............................ Enabled
+        WiFi Invalid Channel..................... Enabled
+        SuperAG.................................. Enabled
+        Canopy................................... Enabled
+        Microsoft Device......................... Enabled
+        WiMax Mobile............................. Enabled
+        WiMax Fixed.............................. Enabled
+        BLE Beacon............................... Enabled
+    Interference Device Alarms................... Enabled
+    Interference Device Types Triggering Alarms:
+        Bluetooth Link........................... Disabled
+        Microwave Oven........................... Disabled
+        802.11 FH................................ Disabled
+        Bluetooth Discovery...................... Disabled
+        TDD Transmitter.......................... Disabled
+        Jammer................................... Enabled
+        Continuous Transmitter................... Disabled
+        DECT-like Phone.......................... Disabled
+        Video Camera............................. Disabled
+        802.15.4................................. Disabled
+        WiFi Inverted............................ Enabled
+        WiFi Invalid Channel..................... Enabled
+        SuperAG.................................. Disabled
+        Canopy................................... Disabled
+        Microsoft Device......................... Disabled
+        WiMax Mobile............................. Disabled
+        WiMax Fixed.............................. Disabled
+        BLE Beacon............................... Disabled
+Additional Clean Air Settings:
+    CleanAir ED-RRM State........................ Disabled
+    CleanAir ED-RRM Sensitivity.................. Medium
+    CleanAir ED-RRM Custom Threshold............. 50
+    CleanAir Persistent Devices state............ Disabled
+    CleanAir Persistent Device Propagation....... Disabled
+
+802.11a CleanAir AirQuality Summary
+AQ = Air Quality 
+DFS = Dynamic Frequency Selection
+ 
+AP Name            Channel Avg AQ Min AQ Interferers DFS
+------------------ ------- ------ ------ ----------- ---
+BLUE               1       100    100    0           
+YELLOW             11      95     95     0           
+
+ 
+
+Mobility Configuration
+Mobility Protocol Port........................... 16666
+Default Mobility Domain.......................... WLC2504
+Multicast Mode .................................. Disabled
+Mobility Domain ID for 802.11r................... 0x131c
+Mobility Keepalive Interval...................... 10
+Mobility Keepalive Count......................... 3
+Mobility Group Members Configured................ 1
+Mobility Control Message DSCP Value.............. 0
+
+Controllers configured in the Mobility Group
+ MAC Address        IP Address                                       Group Name 
+                       Multicast IP                                     Status
+ f0:b2:e5:aa:0b:a0  10.0.0.10                                        WLC2504    
+                       0.0.0.0                                          Up
+
+ 
+
+Mobility Hash Configuration
+
+Default Mobility Domain.......................... WLC2504
+
+ IP Address      Hash Key        
+---------------------------------------------------------
+
+
+
+ 
+
+Self Signed Certificate details 
+
+SSC Hash validation.............................. Enabled.
+
+SSC device certificate not present.
+
+
+ 
+
+
+Mobility Foreign Map Configuration
+ WLAN ID     Foreign Mac Address     Interface
+ -------     -------------------     ---------
+
+ 
+
+Advanced Configuration
+Probe request filtering..........................  Enabled
+Probes fwd to controller per client per radio....  2
+Probe request rate-limiting interval.............  500 msec
+Aggregate Probe request interval.................  500 msec
+Increased backoff parameters for probe respon....  Disabled
+
+EAP-Identity-Request Timeout (seconds)........... 30
+EAP-Identity-Request Max Retries................. 2
+EAP Key-Index for Dynamic WEP.................... 0
+EAP Max-Login Ignore Identity Response........... enable
+EAP-Request Timeout (seconds).................... 30
+EAP-Request Max Retries.......................... 2
+EAPOL-Key Timeout (milliseconds)................. 1000
+EAPOL-Key Max Retries............................ 2
+EAP-Broadcast Key Interval....................... 3600
+
+Fastpath Packet Capture.......................... disable
+Fastpath Fast Cache Control...................... enable
+Fastpath Fast Testmode........................... 0x0
+
+dot11-padding.................................... Disabled
+Advanced Hotspot Commands
+
+ANQP 4-way state................................. Disabled
+GARP Broadcast state: ........................... Enabled
+GAS request rate limit .......................... Disabled
+ANQP comeback delay in TUs(TU=1024usec).......... 50
+
+
+ 
+
+Location Configuration
+RFID Tag data Collection......................... Enabled
+RFID  timeout.................................... 1200 seconds
+RFID mobility.................................... 
+
+ 
+
+Interface Configuration
+Interface Name................................... management
+MAC Address...................................... f0:b2:e5:aa:0b:a0
+IP Address....................................... 10.0.0.10
+IP Netmask....................................... 255.255.255.0
+IP Gateway....................................... 10.0.0.1
+External NAT IP State............................ Disabled
+External NAT IP Address.......................... 0.0.0.0
+Link Local IPv6 Address.......................... fe80::f2b2:e5ff:feaa:ba0/64
+STATE ........................................... REACHABLE
+Primary IPv6 Address............................. ::/128
+STATE ........................................... NONE
+Primary IPv6 Gateway............................. ::
+Primary IPv6 Gateway Mac Address................. 00:00:00:00:00:00
+STATE ........................................... INCOMPLETE
+VLAN............................................. untagged  
+Quarantine-vlan.................................. 0
+Active Physical Port............................. 1         
+Primary Physical Port............................ 1         
+Backup Physical Port............................. Unconfigured
+DHCP Proxy Mode.................................. Global
+Primary DHCP Server.............................. 10.0.0.1
+Secondary DHCP Server............................ Unconfigured
+DHCP Option 82................................... Disabled
+DHCP Option 82 bridge mode insertion............. Disabled
+IPv4 ACL......................................... Unconfigured
+IPv6 ACL......................................... Unconfigured
+mDNS Profile Name................................ Unconfigured
+AP Manager....................................... Yes
+Guest Interface.................................. No
+L2 Multicast..................................... Enabled
+
+Interface Name................................... virtual
+MAC Address...................................... f0:b2:e5:aa:0b:a0
+IP Address....................................... 1.1.1.1
+Virtual DNS Host Name............................ Disabled
+AP Manager....................................... No
+Guest Interface.................................. No
+
+Interface Name................................... vlan2
+MAC Address...................................... f0:b2:e5:aa:0b:a4
+IP Address....................................... 10.0.2.10
+IP Netmask....................................... 255.255.255.0
+IP Gateway....................................... 10.0.2.1
+External NAT IP State............................ Disabled
+External NAT IP Address.......................... 0.0.0.0
+VLAN............................................. 2         
+Quarantine-vlan.................................. 0
+NAS-Identifier................................... WLC2504
+Active Physical Port............................. 1         
+Primary Physical Port............................ 1         
+Backup Physical Port............................. Unconfigured
+DHCP Proxy Mode.................................. Global
+Primary DHCP Server.............................. 10.0.2.1
+Secondary DHCP Server............................ Unconfigured
+DHCP Option 82................................... Disabled
+DHCP Option 82 bridge mode insertion............. Disabled
+IPv4 ACL......................................... Unconfigured
+mDNS Profile Name................................ Unconfigured
+AP Manager....................................... No
+Guest Interface.................................. No
+L2 Multicast..................................... Enabled
+
+
+ 
+
+Interface Group Configuration
+
+ 
+
+WLAN Configuration
+
+WLAN Identifier.................................. 1
+Profile Name..................................... first
+Network Name (SSID).............................. first
+Status........................................... Disabled
+MAC Filtering.................................... Disabled
+Broadcast SSID................................... Enabled
+AAA Policy Override.............................. Disabled
+Network Admission Control
+Client Profiling Status
+    Radius Profiling ............................ Disabled
+     DHCP ....................................... Disabled
+     HTTP ....................................... Disabled
+    Local Profiling ............................. Disabled
+     DHCP ....................................... Disabled
+     HTTP ....................................... Disabled
+  Radius-NAC State............................... Disabled
+  SNMP-NAC State................................. Disabled
+  Quarantine VLAN................................ 0
+Maximum number of Associated Clients............. 0
+Maximum number of Clients per AP Radio........... 200
+Number of Active Clients......................... 0
+Exclusionlist Timeout............................ 60 seconds
+Session Timeout.................................. 1800 seconds
+User Idle Timeout................................ Disabled
+Sleep Client..................................... disable
+Sleep Client Timeout............................. 720 minutes
+User Idle Threshold.............................. 0 Bytes
+NAS-identifier................................... WLC2504
+CHD per WLAN..................................... Enabled
+Webauth DHCP exclusion........................... Disabled
+Interface........................................ management
+Multicast Interface.............................. Not Configured
+WLAN IPv4 ACL.................................... unconfigured
+WLAN IPv6 ACL.................................... unconfigured
+WLAN Layer2 ACL.................................. unconfigured
+mDNS Status...................................... Enabled
+mDNS Profile Name................................ default-mdns-profile
+DHCP Server...................................... Default
+DHCP Address Assignment Required................. Disabled
+Static IP client tunneling....................... Disabled
+Quality of Service............................... Silver
+Per-SSID Rate Limits............................. Upstream	Downstream
+Average Data Rate................................   0		  0
+Average Realtime Data Rate.......................   0		  0
+Burst Data Rate..................................   0		  0
+Burst Realtime Data Rate.........................   0		  0
+Per-Client Rate Limits........................... Upstream	Downstream
+Average Data Rate................................   0		  0
+Average Realtime Data Rate.......................   0		  0
+Burst Data Rate..................................   0		  0
+Burst Realtime Data Rate.........................   0		  0
+Scan Defer Priority.............................. 4,5,6
+Scan Defer Time.................................. 100 milliseconds
+WMM.............................................. Allowed
+WMM UAPSD Compliant Client Support............... Disabled
+Media Stream Multicast-direct.................... Disabled
+CCX - AironetIe Support.......................... Enabled
+CCX - Gratuitous ProbeResponse (GPR)............. Disabled
+CCX - Diagnostics Channel Capability............. Disabled
+Dot11-Phone Mode (7920).......................... Disabled
+Wired Protocol................................... None
+Passive Client Feature........................... Disabled
+Peer-to-Peer Blocking Action..................... Disabled
+Radio Policy..................................... All
+DTIM period for 802.11a radio.................... 1
+DTIM period for 802.11b radio.................... 1
+Radius Servers
+   Authentication................................ Global Servers
+   Accounting.................................... Global Servers
+      Interim Update............................. Enabled
+      Interim Update Interval.................... 0
+      Framed IPv6 Acct AVP ...................... Prefix
+   Dynamic Interface............................. Disabled
+   Dynamic Interface Priority.................... wlan
+Local EAP Authentication......................... Disabled
+Radius NAI-Realm................................. Disabled
+Security
+
+   802.11 Authentication:........................ Open System
+   FT Support.................................... Disabled
+   Static WEP Keys............................... Disabled
+   802.1X........................................ Disabled
+   Wi-Fi Protected Access (WPA/WPA2)............. Enabled
+      WPA (SSN IE)............................... Disabled
+      WPA2 (RSN IE).............................. Enabled
+         TKIP Cipher............................. Disabled
+         AES Cipher.............................. Enabled
+      Auth Key Manageme
+nt
+         802.1x.................................. Enabled
+         PSK..................................... Disabled
+         CCKM.................................... Disabled
+         FT-1X(802.11r).......................... Disabled
+         FT-PSK(802.11r)......................... Disabled
+         PMF-1X(802.11w)......................... Disabled
+         PMF-PSK(802.11w)........................ Disabled
+      FT Reassociation Timeout................... 20
+      FT Over-The-DS mode........................ Enabled
+      GTK Randomization.......................... Disabled
+      SKC Cache Support.......................... Disabled
+      CCKM TSF Tolerance......................... 1000
+   WAPI.......................................... Disabled
+   Wi-Fi Direct policy configured................ Disabled
+   EAP-Passthrough............................... Disabled
+   CKIP ......................................... Disabled
+   Web Based Authentication...................... Disabled
+   Web Authentication Timeout.................... 300
+   Web-Passthrough............................... Disabled
+   Mac-auth-server............................... 0.0.0.0
+   Web-portal-server............................. 0.0.0.0
+   Conditional Web Redirect...................... Disabled
+   Splash-Page Web Redirect...................... Disabled
+   Auto Anchor................................... Disabled
+   FlexConnect Local Switching................... Disabled
+   FlexConnect Central Association............... Disabled
+   flexconnect Central Dhcp Flag................. Disabled
+   flexconnect nat-pat Flag...................... Disabled
+   flexconnect Dns Override Flag................. Disabled
+   flexconnect PPPoE pass-through................ Disabled
+   flexconnect local-switching IP-source-guar.... Disabled
+   FlexConnect Vlan based Central Switching ..... Disabled
+   FlexConnect Local Authentication.............. Disabled
+   FlexConnect Learn IP Address.................. Enabled
+   Client MFP.................................... Optional
+   PMF........................................... Disabled
+   PMF Association Comeback Time................. 1
+   PMF SA Query RetryTimeout..................... 200
+   Tkip MIC Countermeasure Hold-down Timer....... 60
+   Eap-params.................................... Disabled
+AVC Visibilty.................................... Disabled
+AVC Profile Name................................. None
+Flow Monitor Name................................ None
+Split Tunnel Configuration
+    Split Tunnel................................. Disabled
+Call Snooping.................................... Disabled
+Roamed Call Re-Anchor Policy..................... Disabled
+SIP CAC Fail Send-486-Busy Policy................ Enabled
+SIP CAC Fail Send Dis-Association Policy......... Disabled
+KTS based CAC Policy............................. Disabled
+Assisted Roaming Prediction Optimization......... Disabled
+802.11k Neighbor List............................ Disabled
+802.11k Neighbor List Dual Band.................. Disabled
+802.11v Directed Multicast Service............... Disabled
+802.11v BSS Max Idle Service..................... Enabled
+DMS DB is empty
+Band Select...................................... Disabled
+Load Balancing................................... Disabled
+Multicast Buffer................................. Disabled
+Universal Ap Admin............................... Disabled
+
+ Mobility Anchor List
+ WLAN ID     IP Address            Status
+ -------     ---------------       ------
+
+802.11u........................................ Disabled
+
+MSAP Services.................................. Disabled
+
+Local Policy
+----------------
+Priority  Policy Name
+--------  ---------------
+
+WLAN Configuration
+
+WLAN Identifier.................................. 2
+Profile Name..................................... VMS
+Network Name (SSID).............................. VMS
+Status........................................... Enabled
+MAC Filtering.................................... Disabled
+Broadcast SSID................................... Enabled
+AAA Policy Override.............................. Disabled
+Network Admission Control
+Client Profiling Status
+    Radius Profiling ............................ Disabled
+     DHCP ....................................... Disabled
+     HTTP ....................................... Disabled
+    Local Profiling ............................. Enabled
+     DHCP ....................................... Enabled
+     HTTP ....................................... Enabled
+  Radius-NAC State............................... Disabled
+  SNMP-NAC State................................. Disabled
+  Quarantine VLAN................................ 0
+Maximum number of Associated Clients............. 0
+Maximum number of Clients per AP Radio........... 200
+Number of Active Clients......................... 0
+Exclusionlist Timeout............................ 60 seconds
+Session Timeout.................................. 86400 seconds
+User Idle Timeout................................ Disabled
+Sleep Client..................................... disable
+Sleep Client Timeout............................. 720 minutes
+User Idle Threshold.............................. 0 Bytes
+NAS-identifier................................... WLC2504
+CHD per WLAN..................................... Enabled
+Webauth DHCP exclusion........................... Disabled
+Interface........................................ vlan2
+Multicast Interface.............................. Not Configured
+WLAN IPv4 ACL.................................... unconfigured
+WLAN IPv6 ACL.................................... unconfigured
+WLAN Layer2 ACL.................................. unconfigured
+mDNS Status...................................... Enabled
+mDNS Profile Name................................ default-mdns-profile
+DHCP Server...................................... Default
+DHCP Address Assignment Required................. Disabled
+Static IP client tunneling....................... Disabled
+Quality of Service............................... Silver
+Per-SSID Rate Limits............................. Upstream	Downstream
+Average Data Rate................................   0		  0
+Average Realtime Data Rate.......................   0		  0
+Burst Data Rate..................................   0		  0
+Burst Realtime Data Rate.........................   0		  0
+Per-Client Rate Limits........................... Upstream	Downstream
+Average Data Rate................................   0		  0
+Average Realtime Data Rate.......................   0		  0
+Burst Data Rate..................................   0		  0
+Burst Realtime Data Rate.........................   0		  0
+Scan Defer Priority.............................. 4,5,6
+Scan Defer Time.................................. 100 milliseconds
+WMM.............................................. Allowed
+WMM UAPSD Compliant Client Support............... Disabled
+Media Stream Multicast-direct.................... Disabled
+CCX - AironetIe Support.......................... Enabled
+CCX - Gratuitous ProbeResponse (GPR)............. Disabled
+CCX - Diagnostics Channel Capability............. Disabled
+Dot11-Phone Mode (7920).......................... Disabled
+Wired Protocol................................... None
+Passive Client Feature........................... Disabled
+Peer-to-Peer Blocking Action..................... Disabled
+Radio Policy..................................... All
+DTIM period for 802.11a radio.................... 1
+DTIM period for 802.11b radio.................... 1
+Radius Servers
+   Authentication................................ Global Servers
+   Accounting.................................... Global Servers
+      Interim Update............................. Enabled
+      Interim Update Interval.................... 0
+      Framed IPv6 Acct AVP ...................... Prefix
+   Dynamic Interface............................. Disabled
+   Dynamic Interface Priority.................... wlan
+Local EAP Authentication......................... Disabled
+Radius NAI-Realm................................. Disabled
+Security
+
+   802.11 Authentication:........................ Open System
+   FT Support.................................... Disabled
+   Static WEP Keys............................... Disabled
+   802.1X........................................ Disabled
+   Wi-Fi Protected Access (WPA/WPA2)............. Enabled
+      WPA (SSN IE)............................... Disabled
+      WPA2 (RSN IE).............................. Enabled
+         TKIP Cipher............................. Disabled
+         AES Cipher.............................. Enabled
+      Auth Key Manageme
+nt
+         802.1x.................................. Disabled
+         PSK..................................... Enabled
+         CCKM.................................... Disabled
+         FT-1X(802.11r).......................... Disabled
+         FT-PSK(802.11r)......................... Disabled
+         PMF-1X(802.11w)......................... Disabled
+         PMF-PSK(802.11w)........................ Disabled
+      FT Reassociation Timeout................... 20
+      FT Over-The-DS mode........................ Enabled
+      GTK Randomization.......................... Disabled
+      SKC Cache Support.......................... Disabled
+      CCKM TSF Tolerance......................... 1000
+   WAPI.......................................... Disabled
+   Wi-Fi Direct policy configured................ Disabled
+   EAP-Passthrough............................... Disabled
+   CKIP ......................................... Disabled
+   Web Based Authentication...................... Disabled
+   Web Authentication Timeout.................... 300
+   Web-Passthrough............................... Disabled
+   Mac-auth-server............................... 0.0.0.0
+   Web-portal-server............................. 0.0.0.0
+   Conditional Web Redirect...................... Disabled
+   Splash-Page Web Redirect...................... Disabled
+   Auto Anchor................................... Disabled
+   FlexConnect Local Switching................... Disabled
+   FlexConnect Central Association............... Disabled
+   flexconnect Central Dhcp Flag................. Disabled
+   flexconnect nat-pat Flag...................... Disabled
+   flexconnect Dns Override Flag................. Disabled
+   flexconnect PPPoE pass-through................ Disabled
+   flexconnect local-switching IP-source-guar.... Disabled
+   FlexConnect Vlan based Central Switching ..... Disabled
+   FlexConnect Local Authentication.............. Disabled
+   FlexConnect Learn IP Address.................. Enabled
+   Client MFP.................................... Optional
+   PMF........................................... Disabled
+   PMF Association Comeback Time................. 1
+   PMF SA Query RetryTimeout..................... 200
+   Tkip MIC Countermeasure Hold-down Timer....... 60
+   Eap-params.................................... Disabled
+AVC Visibilty.................................... Disabled
+AVC Profile Name................................. None
+Flow Monitor Name................................ None
+Split Tunnel Configuration
+    Split Tunnel................................. Disabled
+Call Snooping.................................... Disabled
+Roamed Call Re-Anchor Policy..................... Disabled
+SIP CAC Fail Send-486-Busy Policy................ Enabled
+SIP CAC Fail Send Dis-Association Policy......... Disabled
+KTS based CAC Policy............................. Disabled
+Assisted Roaming Prediction Optimization......... Disabled
+802.11k Neighbor List............................ Disabled
+802.11k Neighbor List Dual Band.................. Disabled
+802.11v Directed Multicast Service............... Disabled
+802.11v BSS Max Idle Service..................... Enabled
+DMS DB is empty
+Band Select...................................... Disabled
+Load Balancing................................... Disabled
+Multicast Buffer................................. Disabled
+Universal Ap Admin............................... Disabled
+
+ Mobility Anchor List
+ WLAN ID     IP Address            Status
+ -------     ---------------       ------
+
+802.11u........................................ Disabled
+
+MSAP Services.................................. Disabled
+
+Local Policy
+----------------
+Priority  Policy Name
+--------  ---------------
+
+
+ 
+
+Policy Configuration
+
+ 
+
+L2ACL Configuration
+
+ 
+
+ACL Configuration
+
+ 
+
+CPU ACL Configuration
+
+CPU Acl Name................................ NOT CONFIGURED
+Wireless Traffic............................ Disabled
+Wired Traffic............................... Disabled
+
+
+ 
+
+RADIUS Configuration
+Vendor Id Backward Compatibility................. Disabled
+Call Station Id Case............................. lower
+Acct Call Station Id Type........................ Mac Address
+Auth Call Station Id Type........................ AP's Radio MAC Address:SSID
+Aggressive Failover.............................. Enabled
+Keywrap.......................................... Disabled
+Fallback Test:
+    Test Mode.................................... Off
+    Probe User Name.............................. cisco-probe
+    Interval (in seconds)........................ 300
+MAC Delimiter for Authentication Messages........ hyphen
+MAC Delimiter for Accounting Messages............ hyphen
+
+Authentication Servers
+
+Idx  Type  Server Address    Port    State     Tout  MgmtTout  RFC3576  IPSec - 
+AuthMode/Phase1/Group/Lifetime/Auth/Encr/Region
+---  ----  ----------------  ------  --------  ----  --------  -------  --------
+-----------------------------------------------
+
+Accounting Servers
+
+Idx  Type  Server Address    Port    State     Tout  MgmtTout  RFC3576  IPSec - 
+AuthMode/Phase1/Group/Lifetime/Auth/Encr/Region
+---  ----  ----------------  ------  --------  ----  --------  -------  --------
+-----------------------------------------------
+
+ 
+
+TACACS Configuration
+Authentication Servers
+
+Idx      Server Address        Port    State   Tout   MgmtTout
+---  ----------------------   ------  -------  -----  --------
+
+Authorization Servers
+
+Idx      Server Address        Port    State   Tout   MgmtTout
+---  ----------------------   ------  -------  -----  --------
+
+Accounting Servers
+
+Idx      Server Address        Port    State   Tout   MgmtTout
+---  ----------------------   ------  -------  -----  --------
+
+ 
+
+LDAP Configuration
+
+ 
+
+Local EAP Configuration
+User credentials database search order:
+    Primary ..................................... Local DB
+
+Timer:
+    Active timeout .............................. 300
+
+Configured EAP profiles:
+
+EAP Method configuration:
+    EAP-FAST:
+      Server key ................................ <hidden>
+      TTL for the PAC ........................... 10
+      Anonymous provision allowed ............... Yes
+      Authority ID .............................. 436973636f00000000000000000000
+00
+      Authority Information ..................... Cisco A-ID
+
+ 
+
+Dns Configuration
+Radius port...................................... 
+Radius secret.................................... 
+Dns url.......................................... 
+Dns timeout...................................... 
+Dns Serverip..................................... 
+Dns state........................................ Disable
+Dns Auth Retransmit Timeout...................... 2
+Dns Acct Retransmit Timeout...................... 2
+Dns Auth Mgmt-Retransmit Timeout................. 2
+Dns Network Auth................................. Enable
+Dns Mgmt Auth.................................... Enable
+Dns Network Acct................................. Enable
+Dns RFC 3576 Auth................................ Disable
+
+Tacacs port...................................... 
+Tacacs secret.................................... �
+Dns url......................
+.................... 
+Dns timeout...................................... 
+Dns Serverip..................................... 
+Dns state........................................ Disable
+
+
+ 
+
+
+Fallback Radio Shut configuration:
+Fallback Radio Shut: Disabled
+Arp-caching: Disabled
+
+
+ 
+
+FlexConnect Group Summary
+
+FlexConnect Group Summary: Count: 0
+Group Name                # Aps
+
+
+
+ 
+
+FlexConnect Group Detail
+
+
+
+ 
+
+Route  Info
+Number of Routes................................. 0
+
+Destination Network          Netmask               Gateway
+-------------------    -------------------   -------------------
+
+ 
+
+Peer Route  Info
+Number of Routes................................. 0
+
+Destination Network          Netmask               Gateway
+-------------------    -------------------   -------------------
+
+ 
+
+Qos Queue Length Info
+Platinum queue length............................ 100
+Gold queue length................................  75
+Silver queue length..............................  50
+Bronze queue length..............................  25
+
+ 
+
+Qos Profile Info
+Description...................................... For Voice Applications
+Maximum Priority................................. voice
+Unicast Default Priority......................... voice
+Multicast Default Priority....................... voice
+protocol......................................... none
+Description...................................... For Video Applications
+Maximum Priority................................. video
+Unicast Default Priority......................... video
+Multicast Default Priority....................... video
+protocol......................................... none
+Description...................................... For Best Effort
+Maximum Priority................................. besteffort
+Unicast Default Priority......................... besteffort
+Multicast Default Priority....................... besteffort
+protocol......................................... none
+Description...................................... For Background
+Maximum Priority................................. background
+Unicast Default Priority......................... background
+Multicast Default Priority....................... background
+protocol......................................... none
+
+ 
+
+Mac Filter Info
+
+ 
+
+Authorization List
+
+Authorize MIC APs against Auth-list or AAA ...... disabled
+Authorize LSC APs against Auth-List ............. disabled
+APs Allowed to Join
+  AP with Manufacturing Installed Certificate.... yes
+  AP with Self-Signed Certificate................ no
+  AP with Locally Significant Certificate........ no
+
+
+
+ 
+
+Load Balancing Info
+Aggressive Load Balancing........................ per WLAN enabling
+Aggressive Load Balancing Window................. 5 clients
+Aggressive Load Balancing Denial Count........... 3 
+Aggressive Load Balancing Uplink Threshold....... 50 
+
+Statistics (client-count ba
+sed)
+Total Denied Count............................... 0 clients
+Total Denial Sent................................ 0 messages
+Exceeded Denial Max Limit Count.................. 0 times
+None 5G Candidate Count.......................... 0 times
+None 2.4G Candidate Count........................ 0 times
+
+Statistics (uplink-usag
+e based)
+Total Denied Count............................... 0 clients
+Total Denial Sent................................ 0 messages
+Exceeded Denial Max Limit Count.................. 0 times
+None 5G Candidate Count.......................... 0 times
+None 2.4G Candidate Count........................ 0 times
+
+ 
+
+DHCP Info
+
+
+No leases allocated.
+
+
+
+DHCP Opt-82 RID Format: <AP radio MAC address>
+DHCP Opt-82 Format: binary
+
+
+DHCP Proxy Behaviour:	enabled
+
+
+DHCP Server IP Address:.......................... 10.0.2.1
+  DHCP RX DISCOVER Count:........................ 0
+  DHCP TX DISCOVER Count:........................ 0
+  DHCP ACK Count:................................ 0
+  DHCP REQUEST Count:............................ 0
+  DHCP INFORM Count:............................. 0
+  DHCP DECLINE Count:............................ 0
+  DHCP RELEASE Count:............................ 0
+  DHCP REPLY Count:.............................. 0
+  DHCP OFFER Count:.............................. 0
+  DHCP NAK Count:................................ 0
+  Tx Fails:...................................... 0
+  Last Rx Time:.................................. 0
+  Last Tx Time:.................................. 0
+
+
+
+ 
+
+Exclusion List ConfigurationUnable to retrieve exclusion-list entry
+
+
+ 
+
+CDP Configuration
+cdp version v2
+
+ 
+
+Country Channels Configuration
+
+Configured Country............................. US  - United States
+      KEY: * = Channel is legal in this country and may be configured manually.
+           A = Channel is the Auto-RF default in this country.
+           . = Channel is not legal in this country.
+           C = Channel has been configured for use by Auto-RF.
+           x = Channel is available to be configured for use by Auto-RF.
+         (-,-) = (indoor, outdoor) regulatory domain allowed by this country.
+-----------------:+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+    802.11bg     :                            
+    Channels     :                   1 1 1 1 1
+                 : 1 2 3 4 5 6 7 8 9 0 1 2 3 4
+-----------------:+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+ US (-A   ,-AB  ): A * * * * A * * * * A . . .
+-----------------:+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+    802.11a      :                         1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+    Channels     : 3 3 3 4 4 4 4 4 5 5 6 6 0 0 0 1 1 2 2 2 3 3 4 4 5 5 6 6 6 7
+                 : 4 6 8 0 2 4 6 8 2 6 0 4 0 4 8 2 6 0 4 8 2 6 0 9 3 7 1 5 9 3
+-----------------:+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+ US (-A   ,-AB  ): . A . A . A . A A A A A * * * * * . . . * * * A A A A * . .
+-----------------:+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+ 4.9GHz 802.11a  :                                                    
+    Channels     :                   1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2
+                 : 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6
+-----------------:+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+ US (-A   ,-AB  ): * * * * * * * * * * * * * * * * * * * A * * * * * A
+-----------------:+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+
+ 
+
+WPS Configuration Summary
+
+Auto-Immune
+  Auto-Immune.................................... Disabled
+  Auto-Immune by aWIPS Prevention................ Disabled
+
+Client Exclusion Policy
+  Excessive 802.11-association failures.......... Enabled
+  Excessive 802.11-authentication failures....... Enabled
+  Excessive 802.1x-authentication................ Enabled
+  IP-theft....................................... Enabled
+  Excessive Web authentication failure........... Enabled
+  Maximum 802.1x-AAA failure attempts............ 3
+
+Signature Policy
+  Signature Processing........................... Enabled
+
+
+Management Frame Protection
+  Global Infrastructure MFP state................ DISABLED (*all infrastructure 
+settings are overridden)
+  AP Impersonation detection..................... Disabled
+  Controller Time Source Valid................... True
+
+                                    WLAN       Client
+WLAN ID  WLAN Name                  Status     Protection
+-------  -------------------------  ---------  ----------
+1        first                      Disabled   Optional
+2        VMS                        Enabled    Optional
+
+
+
+ 
+
+Custom Web Configuration
+
+Radius Authentication Method..................... PAP
+Cisco Logo....................................... Enabled
+CustomLogo....................................... None
+Custom Title..................................... None
+Custom Message................................... None
+Custom Redirect URL.............................. None
+Web Authentication Type.......................... Internal Default
+Logout-popup..................................... Enabled
+External Web Authentication URL.................. None
+
+Configuration Per Profile:
+
+
+ 
+
+Core dump Configuration
+
+ Core Dump is disabled
+
+
+ 
+
+Rogue AP Configuration
+
+Rogue Detection Security Level................... custom
+Rogue Pending Time............................... 180 secs
+Rogue on wire Auto-Contain....................... Disabled
+Rogue using our SSID Auto-Contain................ Disabled
+Valid client on rogue AP Auto-Contain............ Disabled
+Rogue AP timeout................................. 1200
+Rogue Detection Report Interval.................. 10
+Rogue Detection Min Rssi......................... -80
+Rogue Detection Transient Interval............... 0
+Rogue Detection Client Num Thershold............. 0
+Total Rogues(AP+Ad-hoc) supported................ 2000
+Total Rogues classified.......................... 2
+
+MAC Address        Classification     # APs # Clients Last Heard             
+-----------------  ------------------ ----- --------- -----------------------
+00:1c:f9:2b:63:90  Pending            1     0         Mon Dec  7 11:09:51 2015
+10:bd:18:6a:02:20  Pending            1     0         Mon Dec  7 11:09:50 2015
+10:bd:18:6a:02:21  Pending            1     0         Mon Dec  7 11:09:50 2015
+10:bd:18:6a:02:22  Pending            1     0         Mon Dec  7 11:09:50 2015
+10:bd:18:6a:02:23  Pending            1     0         Mon Dec  7 11:09:50 2015
+20:e5:2a:1e:97:44  Friendly           0     0         Not Heard
+20:e5:2a:1e:97:45  Friendly           1     0         Mon Dec  7 11:09:50 2015
+22:e5:2a:1e:97:46  Pending            1     0         Mon Dec  7 11:09:50 2015
+44:94:fc:4c:70:91  Pending            1     0         Mon Dec  7 11:09:51 2015
+46:94:fc:4c:70:92  Pending            1     0         Mon Dec  7 11:09:51 2015
+48:ee:0c:5b:e0:ac  Pending            1     0         Mon Dec  7 11:09:51 2015
+48:ee:0c:f4:5f:6e  Pending            2     0         Mon Dec  7 11:09:50 2015
+4a:ee:0c:f4:5f:6f  Pending            2     0         Mon Dec  7 11:09:50 2015
+84:1b:5e:51:02:fa  Pending            1     0         Mon Dec  7 11:09:51 2015
+84:1b:5e:cf:0c:ad  Pending            1     0         Mon Dec  7 11:09:51 2015
+84:1b:5e:e4:6a:ae  Pending            1     0         Mon Dec  7 11:09:52 2015
+84:1b:5e:e4:6a:af  Pending            1     0         Mon Dec  7 11:07:51 2015
+86:1b:5e:51:02:fb  Pending            1     0         Mon Dec  7 11:09:51 2015
+86:1b:5e:cf:0c:ae  Pending            1     0         Mon Dec  7 11:09:51 2015
+86:1b:5e:e4:6a:af  Pending            1     0         Mon Dec  7 11:09:52 2015
+86:1b:5e:e4:6a:b1  Pending            1     0         Mon Dec  7 11:09:51 2015
+e8:cc:18:dd:6e:f0  Pending            2     0         Mon Dec  7 11:09:50 2015
+ea:cc:18:dd:6e:f1  Pending            2     0         Mon Dec  7 11:09:50 2015
+f8:e4:fb:50:ae:8d  Pending            1     1         Mon Dec  7 11:09:50 2015
+fa:8f:ca:9e:9e:a1  Pending            1     0         Mon Dec  7 11:07:51 2015
+
+Rogue AP RLDP Configuration
+
+Rogue Location Discovery Protocol................ Disabled
+RLDP Schedule Config............................. Disabled
+RLDP Scheduling Operation........................ Disabled
+RLDP Retry....................................... 1
+
+RLDP Start Time       RLDP End Time       Day 
+---------------       -------------       --- 
+
+Rogue Auto Contain Configuration
+
+Containment Level................................ 1
+monitor_ap_only.................................. false
+
+Adhoc Rogue Configuration
+
+Detect and report Ad-Hoc Networks................ Enabled
+Auto-Contain Ad-Hoc Networks..................... Disabled
+Total Rogues(Ad-Hoc+AP) supported ............... 2000
+Total Ad-Hoc entries ............................ 0
+
+Client MAC Address  Adhoc BSSID         State              # APs   Last Heard   
+          
+------------------  ------------------  -----------------  ------  -------------
+----------
+
+Rogue Client Configuration
+
+Validate rogue clients against AAA............... Disabled
+Validate rogue clients against MSE............... Disabled
+Total Rogue Clients supported.................... 2500
+Total Rogue Clients present...................... 1
+
+MAC Address        State              # APs Last Heard             
+-----------------  ------------------ ----- -----------------------
+30:0d:43:21:5e:ac  Alert              1     Mon Dec  7 11:09:20 2015
+
+Ignore List Configuration
+
+MAC Address       
+----------------- 
+
+Rogue Rule Configuration
+
+Priority         Rule Name                 Rule state Class Type   Notify   Stat
+e    Match Hit Count
+-------- -------------------------------- ----------- ----------- -------- -----
+--- ------ ---------
+
+
+ 
+
+Media-Stream Configuration
+
+Multicast-direct State........................... disable
+Allowed WLANs.................................... 
+
+
+Stream Name   Start IP                                End IP                    
+              Operation Status
+------------- --------------------------------------- --------------------------
+------------- ----------------
+
+
+
+URL.............................................. 
+E-mail........................................... 
+Phone............................................ 
+Note............................................. 
+State............................................ disable
+
+2.4G Band Media-Stream Configuration
+
+
+Multicast-direct................................. Enabled
+Best Effort...................................... Disabled
+Video Re-Direct.................................. Enabled
+Max Allowed Streams Per Radio.................... Auto
+Max Allowed Streams Per Client................... Auto
+Max Video Bandwidth.............................. 0
+Max Voice Bandwidth.............................. 75
+Max Media Bandwidth.............................. 85
+Min PHY Rate..................................... 6000
+Max Retry Percentage............................. 80
+
+5G Band Media-Stream Configuration
+
+
+Multicast-direct................................. Enabled
+Best Effort...................................... Disabled
+Video Re-Direct.................................. Enabled
+Max Allowed Streams Per Radio.................... Auto
+Max Allowed Streams Per Client................... Auto
+Max Video Bandwidth.............................. 0
+Max Voice Bandwidth.............................. 75
+Max Media Bandwidth.............................. 85
+Min PHY Rate..................................... 6000
+Max Retry Percentage............................. 80
+
+
+Number of Clients................................ 0
+
+
+Client Mac         Stream Name  Stream Type  Radio WLAN  QoS    Status
+-----------------  -----------  -----------  ----  ----  ------ -------
+
+ 
+
+WLC Voice Call Statistics
+WLC Voice Call Statistics for 802.11b Radio
+
+WMM TSPEC CAC Call Stats 
+  Total num of Calls in progress................. 0
+  Num of Roam Calls in progress.................. 0
+  Total Num of Calls Admitted.................... 0
+  Total Num of Roam Calls Admitted............... 0
+  Total Num of exp bw requests received.......... 0
+  Total Num of exp bw requests Admitted.......... 0
+  Total Num of Calls Rejected.................... 0
+  Total Num of Roam Calls Rejected............... 0
+  Num of Calls Rejected due to insufficent bw.... 0
+  Num of Calls Rejected due to invalid params.... 0
+  Num of Calls Rejected due to PHY rate.......... 0
+  Num of Calls Rejected due to QoS policy........ 0
+SIP CAC Call Stats
+  Total Num of Calls in progress................. 0
+  Num of Roam Calls in progress.................. 0
+  Total Num of Calls Admitted.................... 0
+  Total Num of Roam Calls Admitted............... 0
+  Total Num of Preferred Calls Received.......... 0
+  Total Num of Preferred Calls Admitted.......... 0
+  Total Num of Ongoing Preferred Calls........... 0
+  Total Num of Calls Rejected(Insuff BW)......... 0
+  Total Num of Roam Calls Rejected(Insuff BW).... 0
+KTS based CAC Call Stats
+  Total Num of Calls in progress................. 0
+  Num of Roam Calls in progress.................. 0
+  Total Num of Calls Admitted.................... 0
+  Total Num of Roam Calls Admitted............... 0
+  Total Num of Calls Rejected(Insuff BW)......... 0
+  Total Num of Roam Calls Rejected(Insuff BW).... 0
+
+WLC Voice Call Statistics for 802.11a Radio
+
+WMM TSPEC CAC Call Stats 
+  Total num of Calls in progress................. 0
+  Num of Roam Calls in progress.................. 0
+  Total Num of Calls Admitted.................... 0
+  Total Num of Roam Calls Admitted............... 0
+  Total Num of exp bw requests received.......... 0
+  Total Num of exp bw requests Admitted.......... 0
+  Total Num of Calls Rejected.................... 0
+  Total Num of Roam Calls Rejected............... 0
+  Num of Calls Rejected due to insufficent bw.... 0
+  Num of Calls Rejected due to invalid params.... 0
+  Num of Calls Rejected due to PHY rate.......... 0
+  Num of Calls Rejected due to QoS policy........ 0
+SIP CAC Call Stats
+  Total Num of Calls in progress................. 0
+  Num of Roam Calls in progress.................. 0
+  Total Num of Calls Admitted.................... 0
+  Total Num of Roam Calls Admitted............... 0
+  Total Num of Preferred Calls Received.......... 0
+  Total Num of Preferred Calls Admitted.......... 0
+  Total Num of Ongoing Preferred Calls........... 0
+  Total Num of Calls Rejected(Insuff BW)......... 0
+  Total Num of Roam Calls Rejected(Insuff BW).... 0
+KTS based CAC Call Stats
+  Total Num of Calls in progress................. 0
+  Num of Roam Calls in progress.................. 0
+  Total Num of Calls Admitted.................... 0
+  Total Num of Roam Calls Admitted............... 0
+  Total Num of Calls Rejected(Insuff BW)......... 0
+  Total Num of Roam Calls Rejected(Insuff BW).... 0
+
+ 
+
+WLC IPv6 Summary
+
+Global Config............................... Enabled
+Reachable-lifetime value.................... 300
+Stale-lifetime value........................ 86400
+Down-lifetime value......................... 30
+RA Throttling............................... Disabled
+RA Throttling allow at-least................ 1
+RA Throttling allow at-most................. 1
+RA Throttling max-through................... 10
+RA Throttling throttle-period............... 600
+RA Throttling interval-option............... passthrough
+NS Mulitcast CacheMiss Forwarding........... Disabled
+NA Mulitcast Forwarding..................... Enabled
+IPv6 Capwap UDP Lite........................ Enabled
+Operating System IPv6 state ................ Enabled
+
+
+ 
+
+mDNS Service Summary
+
+Number of Services.............................. 9
+Mobility learning status ........................ Enabled
+Service-Name                      LSS   Origin     No SP    Service-string
+-------------------------------- ----  ----------  -----   ---------------
+AirTunes                         No    All           0     _raop._tcp.local.    
+              
+Airplay                          No    All           0     _airplay._tcp.local. 
+              
+HP_Photosmart_Printer_1          No    All           0     _universal._sub._ipp.
+_tcp.local.   
+HP_Photosmart_Printer_2          No    All           0     _cups._sub._ipp._tcp.
+local.        
+HomeSharing                      No    All           0     _home-sharing._tcp.lo
+cal.          
+Printer-IPP                      No    All           0     _ipp._tcp.local.     
+              
+Printer-IPPS                     No    All           0     _ipps._tcp.local.    
+              
+Printer-LPD                      No    All           0     _printer._tcp.local. 
+              
+Printer-SOCKET                   No    All           0     _pdl-datastream._tcp.
+local.        
+	* -> If access policy is enabled LSS will be ignored.
+
+
+
+ 
+
+mDNS service-group Summary
+
+Access Policy Status............................ Disabled
+Total number of mDNS Policies.................... 1
+
+Number of Admin configured Policies.............. 1
+
+ Sl No           Service Group Name                       Description           
+         Origin
+ -----    -------------------------------     ----------------------------------
+---     ----------
+ 1         default-mdns-policy                Default Access Policy created by W
+LC        WLC     
+
+
+ 
+
+mDNS  profile detailed
+Profile Name..................................... default-mdns-profile
+Profile Id....................................... 1    
+No of Services................................... 9    
+Services......................................... AirTunes
+                                                  Airplay
+                                                  HP_Photosmart_Printer_1
+                                                  HP_Photosmart_Printer_2
+                                                  HomeSharing
+                                                  Printer-IPP
+                                                  Printer-IPPS
+                                                  Printer-LPD
+                                                  Printer-SOCKET
+                                                  
+No. Interfaces Attached.......................... 0    
+No. Interface Groups Attached.................... 0    
+No. Wlans Attached............................... 2    
+Wlan Ids......................................... 1
+                                                  2
+                                                  
+No. Local Policies Attached...................... 0    
+
+
+ 
+
+ mDNS AP Summary
+
+Number of mDNS APs............................. 0
+
+
+ 
+
+ PMIPv6 Global Configuration
+
+ PMIPv6 Profile Summary
+
+No Profile Created.
+
+ PMIPv6 MAG Statistics
+
+PMIPv6 domain has to be configured first
+
+ PMIPv6 MN Bindings
+
+
+
+ 
+
+ WLAN Express Setup Information.
+
+WLAN Express Setup - ............................ False
+
+
+ 
+
+ Certificate Summary.
+Web Administration Certificate................... 3rd Party
+Web Authentication Certificate................... Locally Generated
+Certificate compatibility mode:.................. off
+Lifetime Check Ignore for MIC ................... Disable
+Lifetime Check Ignore for SSC ................... Disable
+
+
+(WLC2504) >
+(WLC2504) >
