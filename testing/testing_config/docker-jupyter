@@ -1,7 +1,0 @@
-Host machine: docker run -it -p 8888:8888 image:version
-
-Inside the Container : jupyter notebook --ip 0.0.0.0 --no-browser --allow-root
-
-Host machine access this url : localhost:8888/tree‌​
-
-When you are logging in for the first time there will be a link displayed on the terminal to log on with a token.
