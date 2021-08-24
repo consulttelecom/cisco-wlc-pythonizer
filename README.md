@@ -23,8 +23,11 @@ Some examples of problems that can be solved by this tool are provided below.
 * Any ~~crazy~~ innovative idea that comes to your mind and can be solved based on data from WLC config
 
 This tool works for both AireOS and Catalyst 9800 WLCs.
+
 For AireOS WLC you need the output of "show running-config" command.
+
 For Cisco Catalyst 9800 WLC you need the output of "show tech-support wireless" command.
+
 In case you do not have your own config files for analysis, you can start with config samples provided in folder __sample_configs__.
 
 More usage examples are provided in [README file](./docs/README.MD).
