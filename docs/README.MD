@@ -45,7 +45,7 @@ More details below.
 
 If you feel ready to start but do not know how to deal with it:
 
- 1. Watch tool introduction and short demo in Devnet Create 2021 
+ 1. Watch tool introduction and short demo in DevNet Create 2021 
  [link](https://https://developer.cisco.com/devnetcreate/2021) 
  2. Download and open presentation [pdf.file](./demo-presentation/Pythonize_Cisco_WLC_config.pdf)  and use it as reference in your tests
  3. Try to follow short tutorial [TUTORIAL.md](TUTORIAL.md)
