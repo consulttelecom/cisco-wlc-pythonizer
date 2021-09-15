@@ -23,6 +23,10 @@ from parsing_utils import parse_file, read_folder
 
 from config_tools import compare, config_diversity
 
+from ssh_collection import ssh_collect
+
+from cisco_dnac_utils import dnac_get_wlc_configs
+
 def main():
     home = str(Path.home())
     logging.basicConfig(filename=home + '/wlc-pythonizer.log', filemode='w', level=logging.DEBUG)
