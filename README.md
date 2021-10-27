@@ -12,6 +12,14 @@ This conversion will allow you to solve many day-to-day problems and analyse man
 
 Some examples of problems that can be solved by this tool are provided below.
 
+
+## Short video with tool demonstration
+
+[![DevNet Create 2021 demo](./docs/images/youtube_screen_resize.png)](https://www.youtube.com/watch?v=pqX6ROdNJZw "Cisco DevNet Create 2021 demo video")
+
+The tool was presented at Cisco DevNet Create 2021 conference and this demonstration is available at YouTube.
+
+
 ## Some examples of use cases for this tool
 * What changed in the WLC configuration since the last (day, week, month)?
 * Which rogue APs have the most impact on our network?
