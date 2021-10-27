@@ -7,6 +7,11 @@ Using this tool you will be able to solve many day-to-day problems and analyse m
 * using the large (and growing) library of ready-to-use features already included in code
 * operating WLC config object(s) with any standard but powerful Python methods 
 
+## Short video with tool demonstration
+
+[![DevNet Create 2021 demo](./images/youtube_screen_resize.png)](https://www.youtube.com/watch?v=pqX6ROdNJZw "Cisco DevNet Create 2021 demo video")
+
+The tool was presented at Cisco DevNet Create 2021 conference and this demonstration is available at YouTube.
 
 ## Project goals
 Every network engineer who tried to work with WLC config files knows that it is quite large text file containing a mix of semi-structured configuration and operational data for Cisco wireless network. This file contains **a lot of useful information in hard-to-read format**. 
@@ -46,7 +51,7 @@ More details below.
 If you feel ready to start but do not know how to deal with it:
 
  1. Watch tool introduction and short demo in DevNet Create 2021 
- [link](https://https://developer.cisco.com/devnetcreate/2021) 
+ [link](https://www.youtube.com/watch?v=pqX6ROdNJZw) 
  2. Download and open presentation [pdf.file](./demo-presentation/Pythonize_Cisco_WLC_config.pdf)  and use it as reference in your tests
  3. Try to follow short tutorial [TUTORIAL.md](TUTORIAL.md)
 
