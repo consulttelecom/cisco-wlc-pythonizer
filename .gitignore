@@ -59,7 +59,7 @@ pytestdebug.log
 *.pot
 
 # Django stuff:
-*.log
+#*.log
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
@@ -253,6 +253,12 @@ build
 # Visual Studio Code 
 
 # IDE files
-.idea 
+.idea
+
+#include everything within sample_configs/
+!/sample_configs/  
+
+# testing folder
+testing
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,windows,linux

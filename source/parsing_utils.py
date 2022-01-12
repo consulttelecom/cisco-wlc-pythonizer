@@ -785,7 +785,7 @@ def get_config_part(config, start_word, stop_word, printout=False):
             config_section.pop()  # remove last string
             return config_section
         if stop_word in line and within_section_flag == 0:
-            print('WARNING : Stop word before start word: ', stop_word, start_word)
+            #print('WARNING : Stop word before start word: ', stop_word, start_word)
             logging.debug('ERROR : Stop word before start word' + stop_word + start_word)
             return []
     return config_section

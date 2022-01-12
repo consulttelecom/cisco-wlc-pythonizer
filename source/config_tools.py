@@ -100,4 +100,13 @@ def config_diversity(config_list, printout=False):
             print('This metric is calculated for ', len(config_list), ' config items of type ', config_list[0].objname)
         return different_values * len(config_list) / float(overall_config_items)
 
+def mac_changer(mac):
+    #This function changes MAC address format from 9800 to old ('084f.a91d.2a00'->'08:4f:a9:1d:2a:00')
+    mac_new = mac.replace('.','')
+    for index in [2,5,8,11,14]:
+        mac_new = mac_new[:index] + ':' + mac_new[index:]
+    return mac_new
 
+def ap_name_bssid(wlc_config):
+    #This function returns list of (AP name, BSSID) tuples. Really useful for Ekahau site survey when AP names are not broadcasted
+    return [(ap.cisco_ap_name, mac_changer(ap.cisco_ap_identifier)) for ap in wlc_config.ap_configs]

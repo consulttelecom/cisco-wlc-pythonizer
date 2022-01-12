@@ -54,7 +54,8 @@ class NamedList(list):  # Special class to refer to its name in object tree
             copied_list = x.copy()
             return copied_list.pop()  # Should do pop() only for list copy to make list unchanged
         elif len(x) == 0:
-            print('WARNING! Zero elements with name ', name, ' was found ')
+            if name is not None:
+                print('WARNING! Zero elements with name ', name, ' was found ')
             return x
         else:
             print('WARNING! More than one element with name ', name,

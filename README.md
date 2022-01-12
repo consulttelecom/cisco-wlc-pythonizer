@@ -44,7 +44,7 @@ More usage examples are provided in [README file](./docs/README.MD).
 The application is container-ready. This means that there is no need for cumbersome installation of all necessary Python libraries.
 You will be ready to start your analysis in just 3 simple steps:
 * download Docker container from [Docker hub](https://hub.docker.com/repository/docker/wlcpython/cisco-wlc-pythonizer) or pull by using command __docker pull wlcpython/cisco-wlc-pythonizer:latest__
-* start container by following command: docker run -p 8888:8888 -v ~:/tmp:ro wlc-pythonizer
+* start container by following command: docker run -p 8888:8888 -v ~:/tmp:ro wlcpython/cisco-wlc-pythonizer
 * open the Jupyter notebook with interactive tutorial in your browser http://127.0.0.1:8888/notebooks/app/notebooks/tutorial.ipynb
 
 ![title](./docs/images/Jupyter.png "Test Jupyter notebook screenshot")

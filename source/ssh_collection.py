@@ -149,7 +149,7 @@ def exec_wlc_command(ssh, commandlist, period, platform='AireOS'):
                     print('wrong data chunk received', chunk)
                     logging.debug('wrong data chunk received')
             show = show + data
-    print('SSH Collection is completed')
+    print('Output is collected')
     logging.debug('SSH Collection is completed')
     return show
 
